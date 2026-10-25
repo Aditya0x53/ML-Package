@@ -1,0 +1,34 @@
+{
+    "total_stations_processed": 507,
+    "pollutants": [
+        "PM2.5",
+        "PM10",
+        "NO2",
+        "SO2",
+        "CO",
+        "OZONE",
+        "NH3"
+    ],
+    "pollutant_averages": {
+        "PM2.5": 95.27,
+        "PM10": 107.12,
+        "NO2": 29.72,
+        "SO2": 14.59,
+        "CO": 34.53,
+        "OZONE": 20.39,
+        "NH3": 5.33
+    },
+    "pollutant_medians": {
+        "PM2.5": 88.0,
+        "PM10": 106.0,
+        "NO2": 25.0,
+        "SO2": 12.0,
+        "CO": 32.0,
+        "OZONE": 17.0,
+        "NH3": 4.46
+    },
+    "states_covered": 31,
+    "cities_covered": 270,
+    "cleaned_file": "D:\\ML Project\\data\\processed\\station_pollutants_cleaned.csv",
+    "scaled_file": "D:\\ML Project\\data\\processed\\station_pollutants_scaled.csv"
+}

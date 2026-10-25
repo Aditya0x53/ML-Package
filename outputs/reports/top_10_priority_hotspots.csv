@@ -1,0 +1,11 @@
+priority_rank,station,city,state,PM2.5,PM10,NO2,cluster_profile,is_outlier
+1,"Gyaspur, Ahmedabad - IITM",Ahmedabad,Gujarat,153.18,276.0,57.0,Cluster 3: Vehicular & Industrial Gas Dominated,True
+2,"Rakhial, Ahmedabad - IITM",Ahmedabad,Gujarat,121.0,199.0,72.0,Cluster 0: Multi-Pollutant Severe Hotspot,True
+3,"Alipur, Delhi - DPCC",Delhi,Delhi,244.0,237.0,69.0,Cluster 0: Multi-Pollutant Severe Hotspot,False
+4,"MIET College, Meerut - UPPCB",Meerut,Uttar Pradesh,292.0,219.0,51.0,Cluster 0: Multi-Pollutant Severe Hotspot,True
+5,"Vivek Vihar, Delhi - DPCC",Delhi,Delhi,208.0,229.0,99.0,Cluster 0: Multi-Pollutant Severe Hotspot,True
+6,"Pusa, Delhi - IITM",Delhi,Delhi,185.0,164.0,105.0,Cluster 0: Multi-Pollutant Severe Hotspot,True
+7,"Deen Dayal Nagar, Gwalior - MPPCB",Gwalior,Madhya Pradesh,195.0,223.0,74.0,Cluster 0: Multi-Pollutant Severe Hotspot,False
+8,"Sector-D Industrial Area, Mandideep - MPPCB",Mandideep,Madhya Pradesh,175.0,207.0,83.0,Cluster 0: Multi-Pollutant Severe Hotspot,False
+9,"North Campus, DU, Delhi - IITM",Delhi,Delhi,180.0,183.0,106.0,Cluster 0: Multi-Pollutant Severe Hotspot,True
+10,"Wazirpur, Delhi - DPCC",Delhi,Delhi,138.0,190.0,100.0,Cluster 0: Multi-Pollutant Severe Hotspot,True

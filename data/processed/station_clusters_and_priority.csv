@@ -1,0 +1,508 @@
+station,city,state,latitude,longitude,CO,NH3,NO2,OZONE,PM10,PM2.5,SO2,cluster,centroid_distance,is_outlier,PC1,PC2,cluster_profile,priority_score,priority_rank
+"Gyaspur, Ahmedabad - IITM",Ahmedabad,Gujarat,22.977134,72.553024,88.0,2.0,57.0,5.0,276.0,153.18,96.0,3,6.86,True,4.4569,6.2867,Cluster 3: Vehicular & Industrial Gas Dominated,3.655,1
+"Rakhial, Ahmedabad - IITM",Ahmedabad,Gujarat,23.016834,72.625775,91.0,30.0,72.0,7.0,199.0,121.0,17.0,0,6.116,True,5.2135,-1.7255,Cluster 0: Multi-Pollutant Severe Hotspot,2.73,2
+"Alipur, Delhi - DPCC",Delhi,Delhi,28.815329,77.15301,38.57,12.0,69.0,16.0,237.0,244.0,14.0,0,3.019,False,4.6499,-0.537,Cluster 0: Multi-Pollutant Severe Hotspot,2.639,3
+"MIET College, Meerut - UPPCB",Meerut,Uttar Pradesh,28.972677,77.641018,42.0,8.0,51.0,22.0,219.0,292.0,5.0,0,3.503,True,4.1416,-0.4376,Cluster 0: Multi-Pollutant Severe Hotspot,2.636,4
+"Vivek Vihar, Delhi - DPCC",Delhi,Delhi,28.672342,77.31526,28.0,6.0,99.0,5.0,229.0,208.0,15.0,0,3.33,True,4.2227,-0.1641,Cluster 0: Multi-Pollutant Severe Hotspot,2.613,5
+"Pusa, Delhi - IITM",Delhi,Delhi,28.63611,77.173332,37.0,3.83,105.0,58.0,164.0,185.0,16.87,0,3.607,True,3.098,-1.278,Cluster 0: Multi-Pollutant Severe Hotspot,2.395,6
+"Deen Dayal Nagar, Gwalior - MPPCB",Gwalior,Madhya Pradesh,26.259242,78.216432,38.0,5.0,74.0,56.0,223.0,195.0,14.0,0,3.191,False,3.3716,-1.0092,Cluster 0: Multi-Pollutant Severe Hotspot,2.388,7
+"Sector-D Industrial Area, Mandideep - MPPCB",Mandideep,Madhya Pradesh,23.10844,77.511428,43.0,5.0,83.0,24.0,207.0,175.0,32.0,0,2.791,False,3.4575,0.7471,Cluster 0: Multi-Pollutant Severe Hotspot,2.264,8
+"North Campus, DU, Delhi - IITM",Delhi,Delhi,28.689924,77.214261,4.0,5.82,106.0,30.0,183.0,180.0,12.5,0,3.272,True,3.0889,-1.473,Cluster 0: Multi-Pollutant Severe Hotspot,2.238,9
+"Wazirpur, Delhi - DPCC",Delhi,Delhi,28.699793,77.165453,89.0,3.0,100.0,9.0,190.0,138.0,8.0,0,3.943,True,3.4974,0.2383,Cluster 0: Multi-Pollutant Severe Hotspot,2.194,10
+"Pallavpuram Phase 2, Meerut - UPPCB",Meerut,Uttar Pradesh,29.06351,77.709723,21.0,13.0,51.0,37.0,196.0,181.0,42.0,0,3.206,False,3.1248,0.2418,Cluster 0: Multi-Pollutant Severe Hotspot,2.18,11
+"Rajanpur, Gajraula - UPPCB",Gajraula,Uttar Pradesh,28.829109,78.248796,27.39,1.0,30.0,6.0,197.0,275.0,16.0,2,3.628,True,2.5877,1.3564,Cluster 2: Multi-Pollutant Severe Hotspot,2.16,12
+"R K Puram, Delhi - DPCC",Delhi,Delhi,28.563262,77.186937,46.0,7.0,73.0,9.0,191.0,219.0,17.0,0,2.286,False,3.6138,0.2768,Cluster 0: Multi-Pollutant Severe Hotspot,2.091,13
+"City Center, Gwalior - MPPCB",Gwalior,Madhya Pradesh,26.203442,78.193251,74.0,5.0,93.0,57.0,103.0,165.0,22.0,0,3.745,True,2.4812,-0.5671,Cluster 0: Multi-Pollutant Severe Hotspot,2.0,14
+"Chhoti Gwaltoli, Indore - MPPCB",Indore,Madhya Pradesh,22.431,75.5213,36.31,10.0,94.0,3.0,177.0,158.0,25.0,0,2.413,False,3.4736,0.0261,Cluster 0: Multi-Pollutant Severe Hotspot,1.954,15
+"Punjabi Bagh, Delhi - DPCC",Delhi,Delhi,28.674045,77.131023,34.0,5.0,44.0,15.0,208.0,199.0,30.0,0,2.668,False,2.7637,1.2785,Cluster 0: Multi-Pollutant Severe Hotspot,1.941,16
+"Revenue Colony-Shivajinagar, Pune - IITM",Pune,Maharashtra,18.530085,73.849598,90.0,15.15,82.0,19.0,154.77,135.0,16.0,0,3.305,True,3.7068,-0.673,Cluster 0: Multi-Pollutant Severe Hotspot,1.932,17
+"Manali Village, Chennai - TNPCB",Chennai,Tamil Nadu,13.1662,80.2584,45.0,1.0,6.0,225.0,37.0,24.0,12.0,1,11.836,True,-2.936,-4.738,Cluster 1: Relatively Low / Baseline Ambient,1.881,18
+"Mundka, Delhi - DPCC",Delhi,Delhi,28.684678,77.076574,31.0,4.0,61.0,15.0,222.0,182.0,13.0,0,2.387,False,2.8706,0.1214,Cluster 0: Multi-Pollutant Severe Hotspot,1.864,19
+"GVM Corporation, Visakhapatnam - APPCB",Visakhapatnam,Andhra Pradesh,17.72,83.3,26.0,4.0,46.0,12.0,164.0,231.0,28.0,0,2.785,False,2.3813,1.2175,Cluster 0: Multi-Pollutant Severe Hotspot,1.862,20
+"Sonia Vihar, Delhi - DPCC",Delhi,Delhi,28.710508,77.249485,37.0,4.0,26.0,26.0,222.0,202.0,22.0,2,2.843,False,2.4413,0.9289,Cluster 2: Multi-Pollutant Severe Hotspot,1.857,21
+"IIT Delhi, Delhi - IITM",Delhi,Delhi,28.54246,77.191651,31.0,4.31,37.0,13.0,247.0,174.0,11.06,0,2.911,False,2.6014,0.3438,Cluster 0: Multi-Pollutant Severe Hotspot,1.814,22
+"Shadipur, Delhi - CPCB",Delhi,Delhi,28.6514781,77.1473105,63.0,7.0,100.0,7.0,164.0,140.0,9.0,0,2.707,False,3.2026,-0.4663,Cluster 0: Multi-Pollutant Severe Hotspot,1.8,23
+"Sirifort, Delhi - CPCB",Delhi,Delhi,28.5504249,77.2159377,51.0,5.0,33.0,12.0,199.0,210.0,22.0,2,2.561,False,2.6862,1.2638,Cluster 2: Multi-Pollutant Severe Hotspot,1.793,24
+"Patparganj, Delhi - DPCC",Delhi,Delhi,28.623763,77.287209,54.0,6.0,71.0,22.0,202.0,167.0,12.0,0,1.957,False,3.1183,-0.2084,Cluster 0: Multi-Pollutant Severe Hotspot,1.772,25
+"Narela, Delhi - DPCC",Delhi,Delhi,28.822836,77.101981,41.0,5.0,23.0,17.0,227.0,208.0,9.0,2,2.808,False,2.5539,0.4025,Cluster 2: Multi-Pollutant Severe Hotspot,1.77,26
+"Bhumkar Nagar, Pune - IITM",Pimpri-Chinchwad,Maharashtra,18.60577,73.749976,62.0,7.1,81.0,45.0,152.0,168.0,10.03,0,2.39,False,2.8288,-1.1184,Cluster 0: Multi-Pollutant Severe Hotspot,1.765,27
+"Vidhyanagar, Bhavnagar - Nexteng Enviro",Bhavnagar,Gujarat,21.755417,72.139056,71.0,6.0,60.0,45.0,172.0,171.0,9.0,0,2.578,False,2.674,-0.6412,Cluster 0: Multi-Pollutant Severe Hotspot,1.73,28
+"Jai Bhim Nagar, Meerut - UPPCB",Meerut,Uttar Pradesh,28.9535882,77.7622941,51.0,10.0,26.0,54.0,183.0,198.0,9.67,0,2.936,False,2.415,-1.0295,Cluster 0: Multi-Pollutant Severe Hotspot,1.722,29
+"DTU, Delhi - CPCB",Delhi,Delhi,28.7500499,77.1112615,17.0,7.0,29.0,12.0,188.0,192.0,33.0,0,2.877,False,2.0948,1.2272,Cluster 0: Multi-Pollutant Severe Hotspot,1.686,30
+"SVPI Airport Hansol, Ahmedabad - IITM",Ahmedabad,Gujarat,23.076793,72.627874,93.0,21.0,61.0,3.0,97.0,129.0,21.0,0,4.426,True,3.0739,-0.3988,Cluster 0: Multi-Pollutant Severe Hotspot,1.674,31
+"Bhopal Chauraha, Dewas - MPPCB",Dewas,Madhya Pradesh,22.9682591,76.064118,42.0,8.0,112.0,20.0,112.0,94.0,29.0,0,3.193,False,2.2728,-0.3495,Cluster 0: Multi-Pollutant Severe Hotspot,1.625,32
+"NIH Narela , Delhi - DPCC",Delhi,Delhi,28.858447,77.095248,11.0,3.0,58.0,40.0,144.0,208.0,12.0,0,2.738,False,1.6645,-0.7604,Cluster 0: Multi-Pollutant Severe Hotspot,1.619,33
+"Vasundhara, Ghaziabad - UPPCB",Ghaziabad,Uttar Pradesh,28.6603346,77.3572563,23.0,7.0,70.0,39.0,177.0,147.0,26.0,0,1.994,False,2.3273,-0.4182,Cluster 0: Multi-Pollutant Severe Hotspot,1.618,34
+"Okhla Phase-2, Delhi - DPCC",Delhi,Delhi,28.530785,77.271255,23.0,6.0,48.0,12.0,203.0,186.0,14.0,0,2.044,False,2.4706,0.0759,Cluster 0: Multi-Pollutant Severe Hotspot,1.592,35
+"Bawana, Delhi - DPCC",Delhi,Delhi,28.7762,77.051074,29.0,6.0,31.0,12.0,214.0,184.0,14.0,0,2.418,False,2.2993,0.3803,Cluster 0: Multi-Pollutant Severe Hotspot,1.569,36
+"Major Dhyan Chand National Stadium, Delhi - DPCC",Delhi,Delhi,28.611281,77.237738,3.0,7.0,76.0,9.0,177.0,157.0,13.0,0,2.28,False,2.2739,-0.7362,Cluster 0: Multi-Pollutant Severe Hotspot,1.541,37
+"Eco Herbal Park, Moradabad - UPPCB",Moradabad,Uttar Pradesh,28.840739,78.697531,18.0,12.0,37.0,31.0,135.0,229.0,13.0,0,2.418,False,2.1936,-1.0471,Cluster 0: Multi-Pollutant Severe Hotspot,1.537,38
+"Talkatora District Industries Center, Lucknow - CPCB",Lucknow,Uttar Pradesh,26.83399722,80.8917361,33.0,17.0,33.0,11.0,152.0,199.0,14.0,0,2.619,False,2.692,-0.8039,Cluster 0: Multi-Pollutant Severe Hotspot,1.514,39
+"Sector-2 Industrial Area, Pithampur - MPPCB",Pithampur,Madhya Pradesh,22.624758,75.675238,34.0,7.0,35.0,54.0,177.0,128.0,34.0,0,2.963,False,1.5426,0.208,Cluster 0: Multi-Pollutant Severe Hotspot,1.505,40
+"Chakala-Andheri East, Mumbai - IITM",Mumbai,Maharashtra,19.11074,72.86084,74.0,13.0,53.0,5.0,142.0,179.0,6.0,0,2.527,False,2.9357,-0.4466,Cluster 0: Multi-Pollutant Severe Hotspot,1.485,41
+"SAC ISRO Bopal, Ahmedabad - IITM",Ahmedabad,Gujarat,23.041137,72.456691,60.0,3.0,18.0,5.0,186.0,220.0,5.0,2,2.607,False,2.125,0.9717,Cluster 2: Multi-Pollutant Severe Hotspot,1.475,42
+"Dwarka-Sector 8, Delhi - DPCC ",Delhi,Delhi,28.5710274,77.0719006,15.0,5.0,61.0,14.0,193.0,159.0,14.0,0,1.978,False,2.1543,-0.2137,Cluster 0: Multi-Pollutant Severe Hotspot,1.466,43
+"Pusa, Delhi - DPCC",Delhi,Delhi,28.636818,77.173597,57.0,9.0,54.0,15.0,182.0,164.0,18.0,0,1.505,False,2.826,0.2147,Cluster 0: Multi-Pollutant Severe Hotspot,1.465,44
+"Aya Nagar, Delhi - IITM",Delhi,Delhi,28.4706914,77.1099364,72.0,8.63,56.0,23.0,165.0,160.0,12.33,0,1.91,False,2.7069,-0.1391,Cluster 0: Multi-Pollutant Severe Hotspot,1.456,45
+"Rohini, Delhi - DPCC",Delhi,Delhi,28.732528,77.11992,19.0,9.0,10.0,19.0,203.0,192.0,11.0,2,2.887,False,1.8672,-0.1679,Cluster 2: Multi-Pollutant Severe Hotspot,1.452,46
+"Uttam Nagar ,Delhi-DPCC",Delhi,Delhi,28.6375265,77.0571176,40.0,1.0,62.0,34.0,170.0,151.0,12.0,0,2.363,False,1.7178,-0.1407,Cluster 0: Multi-Pollutant Severe Hotspot,1.431,47
+"Mandir Marg, Delhi - DPCC",Delhi,Delhi,28.636429,77.201067,37.0,9.0,74.0,8.0,155.0,166.0,19.0,0,1.347,False,2.7051,-0.1032,Cluster 0: Multi-Pollutant Severe Hotspot,1.424,48
+"Sector-2 IMT, Manesar - HSPCB",Manesar,Haryana,28.360699,76.93609,14.0,17.0,44.0,14.0,135.0,185.0,15.0,0,2.556,False,2.3249,-1.2724,Cluster 0: Multi-Pollutant Severe Hotspot,1.4,49
+"Dr. Karni Singh Shooting Range, Delhi - DPCC",Delhi,Delhi,28.498571,77.26484,18.0,7.0,57.0,14.0,180.0,179.0,7.0,0,1.716,False,2.2579,-0.7223,Cluster 0: Multi-Pollutant Severe Hotspot,1.39,50
+"Prashant Garden, Khora - UPPCB",Khora,Uttar Pradesh,28.61119,77.34206,17.0,11.0,59.0,26.0,172.0,174.0,9.0,0,1.486,False,2.457,-1.4015,Cluster 0: Multi-Pollutant Severe Hotspot,1.39,50
+"Nagar Nigam, Prayagraj - UPPCB",Prayagraj,Uttar Pradesh,25.44919916,81.82735986,87.0,10.0,5.0,12.0,169.0,57.0,71.0,3,4.251,True,1.4201,4.0399,Cluster 3: Vehicular & Industrial Gas Dominated,1.388,52
+"Karala,Delhi-DPCC",Delhi,Delhi,28.7313303,77.0402585,34.0,17.0,79.0,12.0,105.0,154.0,11.0,0,2.471,False,2.6141,-1.7365,Cluster 0: Multi-Pollutant Severe Hotspot,1.385,53
+"Malad West, Mumbai - IITM",Mumbai,Maharashtra,19.19709,72.82204,59.0,3.0,46.0,14.0,143.0,167.0,31.0,2,2.296,False,1.8191,1.718,Cluster 2: Multi-Pollutant Severe Hotspot,1.382,54
+"CRRI Mathura Road, Delhi - IITM",Delhi,Delhi,28.5512005,77.2735737,26.0,7.38,38.0,12.0,188.0,179.0,16.77,0,1.812,False,2.1699,0.2163,Cluster 0: Multi-Pollutant Severe Hotspot,1.374,55
+"Sadanand Nagar, Mehsana - Nexteng Enviro",Mehsana,Gujarat,23.59315,72.372792,54.0,1.0,13.0,10.0,138.0,231.0,25.0,2,2.618,False,1.4268,2.1625,Cluster 2: Multi-Pollutant Severe Hotspot,1.368,56
+"General Hospital, Mandikhera(Nuh) - HSPCB",Mandikhera,Haryana,27.9002,76.9938,40.0,14.0,34.0,60.0,121.22,156.0,22.0,0,2.962,False,1.6535,-1.3257,Cluster 0: Multi-Pollutant Severe Hotspot,1.363,57
+"Jharoda Kalan, Delhi-DPCC",Delhi,Delhi,28.645274,76.956375,25.0,24.0,46.0,24.0,151.0,99.0,7.0,0,3.883,True,2.3265,-2.7921,Cluster 0: Multi-Pollutant Severe Hotspot,1.359,58
+"IGI Airport (T3), Delhi - IITM",Delhi,Delhi,28.5627763,77.1180053,18.0,6.08,89.0,17.0,167.0,100.0,14.63,0,2.165,False,1.951,-0.8493,Cluster 0: Multi-Pollutant Severe Hotspot,1.324,59
+"Knowledge Park - V, Greater Noida - UPPCB",Greater Noida,Uttar Pradesh,28.557054,77.453663,37.0,12.0,76.0,23.0,174.0,120.0,14.0,0,1.301,False,2.6878,-1.1997,Cluster 0: Multi-Pollutant Severe Hotspot,1.315,60
+"Nagar Palika Parishad, Baraut - UPPCB",Baraut,Uttar Pradesh,29.09956,77.26235,56.0,2.55,25.0,47.0,142.0,201.0,9.83,2,2.402,False,1.3605,-0.0194,Cluster 2: Multi-Pollutant Severe Hotspot,1.293,61
+"Kalu Nagar, Dombivli - MPCB",Dombivli,Maharashtra,19.2268427,73.0788456,33.74,12.0,26.0,44.0,118.0,151.0,39.0,3,2.911,False,1.3222,0.2907,Cluster 3: Vehicular & Industrial Gas Dominated,1.286,62
+"Teri Gram, Gurugram - HSPCB",Gurugram,Haryana,28.4275,77.1465,35.0,11.0,48.0,9.0,170.0,178.0,12.0,0,1.325,False,2.538,-0.4068,Cluster 0: Multi-Pollutant Severe Hotspot,1.286,62
+"Katargam, Surat - Nexteng Enviro",Surat,Gujarat,21.217779,72.834787,43.0,2.0,58.0,41.0,117.0,119.0,48.0,3,2.441,False,1.0324,1.619,Cluster 3: Vehicular & Industrial Gas Dominated,1.276,64
+"Nehru Nagar, Kanpur - UPPCB",Kanpur,Uttar Pradesh,26.4703136,80.3229863,100.0,7.92,48.0,3.0,106.0,153.0,8.0,2,3.339,True,2.0333,0.565,Cluster 2: Multi-Pollutant Severe Hotspot,1.261,65
+"Ved Vihar-Loni, Ghaziabad - UPPCB",Ghaziabad,Uttar Pradesh,28.739153,77.273668,23.3,2.15,10.72,4.0,186.0,201.0,14.0,2,2.572,False,1.3027,1.1677,Cluster 2: Multi-Pollutant Severe Hotspot,1.259,66
+"Transport Nagar-Nigdi, Pune - IITM",Pimpri-Chinchwad,Maharashtra,18.664282,73.763966,75.0,5.64,53.0,15.0,137.0,155.0,13.28,2,2.193,False,2.0512,0.4647,Cluster 2: Multi-Pollutant Severe Hotspot,1.253,67
+"Navy Nagar-Colaba, Mumbai - IITM",Mumbai,Maharashtra,18.897756,72.81332,63.0,4.0,56.0,11.0,142.0,165.0,8.0,2,2.065,False,1.9557,0.2642,Cluster 2: Multi-Pollutant Severe Hotspot,1.233,68
+"Loni, Ghaziabad - UPPCB",Ghaziabad,Uttar Pradesh,28.757294,77.278792,59.0,5.0,49.0,44.0,157.0,136.0,11.0,0,2.141,False,1.6653,-0.5185,Cluster 0: Multi-Pollutant Severe Hotspot,1.223,69
+"Bandra Kurla Complex, Mumbai - IITM",Mumbai,Maharashtra,19.053536,72.84643,40.0,4.0,63.0,20.0,169.0,139.28,15.0,0,1.506,False,1.9217,0.0303,Cluster 0: Multi-Pollutant Severe Hotspot,1.22,70
+"Bandra Kurla Complex, Mumbai - MPCB",Mumbai,Maharashtra,19.065931,72.862131,4.0,5.0,81.0,4.0,137.0,138.0,5.0,0,2.618,False,1.4705,-1.0153,Cluster 0: Multi-Pollutant Severe Hotspot,1.219,71
+"Hadapsar, Pune - IITM",Pune,Maharashtra,18.501793,73.927532,66.0,7.85,68.0,7.0,117.0,156.0,11.51,0,1.985,False,2.2091,-0.0077,Cluster 0: Multi-Pollutant Severe Hotspot,1.216,72
+"Sector - 62, Noida - IITM",Noida,Uttar Pradesh,28.6245479,77.3577104,35.0,7.54,34.0,15.0,170.0,180.0,14.74,0,1.609,False,1.9703,0.1498,Cluster 0: Multi-Pollutant Severe Hotspot,1.216,72
+"Burari,Delhi-DPCC",Delhi,Delhi,28.769667,77.206805,20.0,11.0,65.0,23.0,159.0,141.0,19.0,0,1.153,False,2.2123,-0.8679,Cluster 0: Multi-Pollutant Severe Hotspot,1.203,74
+"Kendriya Vidyalaya, Lucknow - CPCB",Lucknow,Uttar Pradesh,26.906111,80.948222,39.0,16.0,40.0,31.0,109.0,183.0,5.0,0,2.42,False,1.9984,-1.8416,Cluster 0: Multi-Pollutant Severe Hotspot,1.192,75
+"Commonwealth Sports Complex, Delhi - DPCC",Delhi,Delhi,28.615828,77.271992,7.0,2.0,41.0,18.0,148.0,170.0,18.0,2,2.497,False,0.9292,0.3368,Cluster 2: Multi-Pollutant Severe Hotspot,1.176,76
+"NISE Gwal Pahari, Gurugram - IITM",Gurugram,Haryana,28.422681,77.148944,7.0,6.38,40.0,22.0,151.0,176.0,14.98,0,2.044,False,1.3409,-0.3807,Cluster 0: Multi-Pollutant Severe Hotspot,1.168,77
+"New Anaj Mandi, Khairthal - RSPCB",Khairthal,Rajasthan,27.8015617,76.6365217,26.46,5.0,33.0,26.0,130.0,212.0,4.0,2,2.18,False,1.3268,-0.5789,Cluster 2: Multi-Pollutant Severe Hotspot,1.167,78
+"Sanjay Nagar, Ghaziabad - UPPCB",Ghaziabad,Uttar Pradesh,28.685382,77.453839,30.0,2.0,69.0,18.0,135.0,135.0,19.0,0,2.082,False,1.3165,0.2588,Cluster 0: Multi-Pollutant Severe Hotspot,1.155,79
+"Nehru Nagar, Delhi - DPCC",Delhi,Delhi,28.56789,77.250515,32.0,9.0,58.0,10.0,146.0,123.0,31.0,0,1.674,False,1.8318,0.569,Cluster 0: Multi-Pollutant Severe Hotspot,1.134,80
+"Dadupura, Fatehpur Sikri - UPPCB",Fatehpur Sikri,Uttar Pradesh,27.097694,77.671335,45.0,2.0,7.0,14.0,179.0,198.0,11.0,2,2.112,False,1.319,1.0746,Cluster 2: Multi-Pollutant Severe Hotspot,1.131,81
+"Sri Aurobindo Marg, Delhi - DPCC",Delhi,Delhi,28.531346,77.190156,43.0,4.0,37.0,13.0,163.0,166.0,20.0,2,1.531,False,1.6565,0.9164,Cluster 2: Multi-Pollutant Severe Hotspot,1.124,82
+"Mazgaon, Mumbai - IITM",Mumbai,Maharashtra,18.96702,72.84214,64.0,15.0,50.84,18.0,159.0,109.53,4.0,0,2.234,False,2.3781,-1.3486,Cluster 0: Multi-Pollutant Severe Hotspot,1.123,83
+"Sanjay Palace, Agra - UPPCB",Agra,Uttar Pradesh,27.19865833,78.00598056,32.0,6.51,20.0,19.0,140.0,203.0,18.0,2,1.862,False,1.4135,0.4888,Cluster 2: Multi-Pollutant Severe Hotspot,1.115,84
+"Murthal, Sonipat - HSPCB",Sonipat,Haryana,29.0272,77.0621,23.0,9.0,7.0,10.0,126.0,224.0,9.94,2,2.684,False,1.2212,0.0459,Cluster 2: Multi-Pollutant Severe Hotspot,1.11,85
+"Worli, Mumbai - MPCB",Mumbai,Maharashtra,18.9936162,72.8128113,92.0,8.87,52.08,1.0,103.0,126.0,11.0,2,3.151,False,1.8127,0.4657,Cluster 2: Multi-Pollutant Severe Hotspot,1.103,86
+"GIDC, Ankleshwar - GPCB",Ankleshwar,Gujarat,21.613267,73.010555,78.0,6.0,27.0,20.0,139.0,163.0,19.0,2,1.981,False,1.6992,1.0182,Cluster 2: Multi-Pollutant Severe Hotspot,1.093,87
+"Savta Mali Nagar, Pimpri-Chinchwad - IITM",Pimpri-Chinchwad,Maharashtra,18.614767,73.799516,84.0,6.82,46.0,14.0,137.0,102.0,23.96,2,2.586,False,1.662,1.0779,Cluster 2: Multi-Pollutant Severe Hotspot,1.086,88
+"Sector-3B Avas Vikas Colony, Agra - UPPCB",Agra,Uttar Pradesh,27.19412,77.96237,86.0,8.0,35.0,5.0,137.0,102.0,29.0,2,2.868,False,1.6151,1.6398,Cluster 2: Multi-Pollutant Severe Hotspot,1.073,89
+"15th Mile-Nongthymmai, Byrnihat -Meghalaya PCB",Byrnihat,Meghalaya,26.079047,91.875185,3.0,0.0,18.28,27.73,183.0,159.0,5.0,2,2.964,False,0.4141,-0.2015,Cluster 2: Multi-Pollutant Severe Hotspot,1.065,90
+"Madan Mohan Malaviya University of Technology, Gorakhpur - UPPCB",Gorakhpur,Uttar Pradesh,26.730136,83.433859,6.0,1.0,11.0,12.0,112.0,181.0,53.0,3,2.704,False,0.1449,2.9758,Cluster 3: Vehicular & Industrial Gas Dominated,1.056,91
+"MM Ground, Bikaner - RSPCB",Bikaner,Rajasthan,28.018792,73.292658,18.0,13.0,44.0,63.0,170.0,62.0,2.0,0,3.355,True,0.9796,-3.0254,Cluster 0: Multi-Pollutant Severe Hotspot,1.041,92
+"Arya Nagar, Bahadurgarh - HSPCB",Bahadurgarh,Haryana,28.6701,76.9254,27.0,7.0,23.0,9.0,182.0,154.0,14.0,2,1.881,False,1.478,0.3057,Cluster 2: Multi-Pollutant Severe Hotspot,1.032,93
+"Yamunapuram, Bulandshahr - UPPCB",Bulandshahr,Uttar Pradesh,28.406963,77.849831,29.0,10.0,48.0,42.0,158.0,134.0,9.0,0,1.433,False,1.6579,-1.5155,Cluster 0: Multi-Pollutant Severe Hotspot,1.03,94
+"Sardar Patel Inter College, Baghpat - UPPCB",Baghpat,Uttar Pradesh,28.964949,77.278761,34.0,3.0,24.0,24.0,157.0,182.0,16.0,2,1.569,False,1.1999,0.5759,Cluster 2: Multi-Pollutant Severe Hotspot,1.027,95
+"Sahu Nagar, Sawai Madhopur - RSPCB",Sawai Madhopur,Rajasthan,26.031443,76.359327,39.0,6.0,30.0,48.0,160.0,144.0,4.0,2,2.173,False,1.131,-1.1486,Cluster 2: Multi-Pollutant Severe Hotspot,1.023,96
+"GIFT City, Gandhinagar - IITM",Gandhinagar,Gujarat,23.163798,72.677768,64.0,5.0,57.0,3.0,163.0,100.0,8.0,0,2.256,False,1.6943,0.2473,Cluster 0: Multi-Pollutant Severe Hotspot,1.018,97
+"Indirapuram, Ghaziabad - UPPCB",Ghaziabad,Uttar Pradesh,28.646233,77.358075,37.0,9.0,48.0,16.0,156.0,133.0,24.0,0,1.077,False,1.8356,0.2356,Cluster 0: Multi-Pollutant Severe Hotspot,1.002,98
+"Rajendra Nagar, Bareilly - UPPCB",Bareilly,Uttar Pradesh,28.38910936,79.42963708,18.0,1.0,10.0,23.04,139.63,208.0,10.0,2,2.436,False,0.5208,0.4537,Cluster 2: Multi-Pollutant Severe Hotspot,0.998,99
+"Byculla, Mumbai - BMC",Mumbai,Maharashtra,18.9767,72.838,79.0,13.0,65.0,0.0,83.0,114.0,1.0,0,3.228,True,1.815,-0.9303,Cluster 0: Multi-Pollutant Severe Hotspot,0.993,100
+"Nua Sandhakuda, Paradeep - OSPCB",Paradeep,Odisha,20.258828,86.665185,97.0,5.0,16.0,38.0,183.0,70.0,11.0,2,3.327,True,1.1101,0.4479,Cluster 2: Multi-Pollutant Severe Hotspot,0.988,101
+"CBD Belapur, Belapur - MPCB",Belapur,Maharashtra,19.0243902,73.0406721,50.0,2.0,56.0,16.0,147.0,134.0,8.0,2,1.808,False,1.3502,0.1131,Cluster 2: Multi-Pollutant Severe Hotspot,0.988,101
+"Satyawati Vihar, Karauli - RSPCB",Karauli,Rajasthan,26.506177,77.025989,6.0,20.0,34.0,33.0,126.0,104.0,7.0,0,3.496,True,1.1935,-2.7271,Cluster 0: Multi-Pollutant Severe Hotspot,0.982,103
+"Ram Nagar, Nagpur - MPCB",Nagpur,Maharashtra,21.143383,79.048912,65.0,3.0,33.0,14.0,119.0,139.0,42.0,3,1.784,False,1.1139,2.5048,Cluster 3: Vehicular & Industrial Gas Dominated,0.969,104
+"Ashok Vihar, Delhi - DPCC",Delhi,Delhi,28.695381,77.181665,37.0,7.0,65.0,18.0,146.0,125.0,19.0,0,0.911,False,1.779,-0.1384,Cluster 0: Multi-Pollutant Severe Hotspot,0.968,105
+"Vasundhara Nagar_UIT, Bhiwadi - RSPCB",Bhiwadi,Rajasthan,28.207266,76.829265,31.0,5.0,39.0,7.0,184.0,116.0,16.0,2,1.835,False,1.3641,0.4604,Cluster 2: Multi-Pollutant Severe Hotspot,0.966,106
+"Moti Doongri, Alwar - RSPCB",Alwar,Rajasthan,27.554793,76.611536,42.0,10.0,63.0,9.0,106.0,121.0,27.0,0,1.718,False,1.5951,0.2605,Cluster 0: Multi-Pollutant Severe Hotspot,0.956,107
+"NSUT Jaffarpur, Delhi - DPCC",Delhi,Delhi,28.594004,76.909423,61.0,4.0,44.0,13.0,130.0,167.0,4.0,2,1.68,False,1.4999,0.0874,Cluster 2: Multi-Pollutant Severe Hotspot,0.952,108
+"Ghummanhera ,Delhi-DPCC",Delhi,Delhi,28.534762,76.91609,63.0,16.0,57.0,22.0,93.0,98.0,16.48,0,2.577,False,1.7194,-1.0436,Cluster 0: Multi-Pollutant Severe Hotspot,0.943,109
+"Suryakiran Bhawan NCL, Singrauli - MPPCB",Singrauli,Madhya Pradesh,24.10897,82.64558,33.0,5.23,29.28,47.0,116.0,133.0,33.0,3,2.176,False,0.5444,0.4937,Cluster 3: Vehicular & Industrial Gas Dominated,0.926,110
+"Sewri, Mumbai - BMC",Mumbai,Maharashtra,19.000084,72.85673,29.0,15.0,88.0,7.0,110.0,54.0,6.0,0,2.921,False,1.5829,-2.085,Cluster 0: Multi-Pollutant Severe Hotspot,0.921,111
+"Siddharth Nagar-Worli, Mumbai - IITM",Mumbai,Maharashtra,19.000083,72.813993,2.0,4.0,62.0,4.0,156.0,84.0,16.26,0,2.668,False,0.7282,-0.1327,Cluster 0: Multi-Pollutant Severe Hotspot,0.92,112
+"Mahal, Nagpur - MPCB",Nagpur,Maharashtra,21.14472,79.107595,66.0,8.0,34.0,12.0,118.0,115.0,40.0,3,1.982,False,1.2996,1.8485,Cluster 3: Vehicular & Industrial Gas Dominated,0.918,113
+"Anand Vihar, Delhi - DPCC",Delhi,Delhi,28.647622,77.315809,21.0,4.0,35.0,14.0,165.0,105.0,39.0,3,1.704,False,0.8814,1.5968,Cluster 3: Vehicular & Industrial Gas Dominated,0.91,114
+"Phase-4 GIDC, Vatva - GPCB",Vatva,Gujarat,22.969611,72.6435,23.0,5.0,28.0,9.0,144.0,136.0,41.0,3,1.526,False,0.9223,1.8863,Cluster 3: Vehicular & Industrial Gas Dominated,0.887,115
+"Gomti Nagar, Lucknow - UPPCB",Lucknow,Uttar Pradesh,26.86812,81.005119,36.0,3.32,9.0,35.0,136.0,186.0,15.0,2,1.831,False,0.6648,0.393,Cluster 2: Multi-Pollutant Severe Hotspot,0.873,116
+"Sector-2 Murlipura, Jaipur - RSPCB",Jaipur,Rajasthan,26.960669,75.771817,5.0,3.0,65.0,23.0,139.0,92.0,11.0,0,2.489,False,0.5196,-0.8229,Cluster 0: Multi-Pollutant Severe Hotspot,0.869,117
+"Talcher Coalfields,Talcher - OSPCB",Talcher,Odisha,20.9360711,85.1707021,1.0,4.0,13.0,23.0,146.0,138.0,36.0,3,2.364,False,0.1954,1.2408,Cluster 3: Vehicular & Industrial Gas Dominated,0.863,118
+"Vasundhara Enclave, Delhi - DPCC",Delhi,Delhi,28.603699,77.321644,52.0,7.0,50.0,9.0,154.0,121.0,9.0,0,1.356,False,1.65,-0.1025,Cluster 0: Multi-Pollutant Severe Hotspot,0.861,119
+"Ashta Vinayak Nagar, Hingoli - MPCB",Hingoli,Maharashtra,19.710842,77.151824,31.0,2.0,19.0,50.0,121.0,171.0,9.0,2,2.325,False,0.2707,-0.448,Cluster 2: Multi-Pollutant Severe Hotspot,0.861,119
+"Industrial Area, Hajipur - BSPCB",Hajipur,Bihar,25.697189,85.2459,49.0,15.0,38.0,18.0,104.0,140.0,10.0,0,2.073,False,1.571,-1.055,Cluster 0: Multi-Pollutant Severe Hotspot,0.847,121
+"Najafgarh, Delhi - DPCC",Delhi,Delhi,28.570173,76.933762,44.0,6.0,30.0,20.0,153.0,155.0,15.0,2,1.048,False,1.3863,0.2912,Cluster 2: Multi-Pollutant Severe Hotspot,0.847,121
+"Borivali East, Mumbai - IITM",Mumbai,Maharashtra,19.23241,72.86895,35.0,5.0,26.0,44.0,127.0,145.0,20.33,2,1.838,False,0.6459,-0.0355,Cluster 2: Multi-Pollutant Severe Hotspot,0.843,123
+"Tikri Kalan ,Delhi-DPCC",Delhi,Delhi,28.67518,76.980506,21.0,5.0,71.0,46.0,104.0,84.0,12.0,0,2.53,False,0.4454,-1.4953,Cluster 0: Multi-Pollutant Severe Hotspot,0.835,124
+"IIPHG Lekawada, Gandhinagar - IITM",Gandhinagar,Gujarat,23.243639,72.68994,76.0,15.0,41.0,1.0,114.0,91.0,4.0,0,3.141,False,1.6044,-0.7412,Cluster 0: Multi-Pollutant Severe Hotspot,0.832,125
+"Nangloi,Delhi-DPCC",Delhi,Delhi,28.6835525,77.0742812,22.0,6.0,64.0,21.0,139.0,95.0,19.0,0,1.519,False,1.0735,-0.3762,Cluster 0: Multi-Pollutant Severe Hotspot,0.827,126
+"Shastri Nagar, Jaipur - RSPCB",Jaipur,Rajasthan,26.9502929,75.730943,20.0,13.0,50.0,16.0,118.0,125.0,19.0,0,1.564,False,1.3903,-0.8157,Cluster 0: Multi-Pollutant Severe Hotspot,0.825,127
+"Old City, Sri Ganganagar - RSPCB",Sri Ganganagar,Rajasthan,29.931624,73.864511,32.0,6.0,59.0,26.0,136.0,129.0,3.0,0,1.332,False,1.2601,-1.1714,Cluster 0: Multi-Pollutant Severe Hotspot,0.823,128
+"RIICO Ind. Area III, Bhiwadi - RSPCB",Bhiwadi,Rajasthan,28.194909,76.862296,44.0,10.0,42.0,15.0,145.0,142.0,9.0,0,0.986,False,1.7119,-0.5517,Cluster 0: Multi-Pollutant Severe Hotspot,0.816,129
+"JNU, Delhi - DPCC",Delhi,Delhi,28.540721,77.168544,83.0,1.0,20.0,43.0,84.0,160.0,10.0,2,2.813,False,0.3255,0.5041,Cluster 2: Multi-Pollutant Severe Hotspot,0.806,130
+"New Colony, Bundi - RSPCB",Bundi,Rajasthan,25.435774,75.644272,36.0,9.0,72.0,31.0,130.0,86.0,8.0,0,1.46,False,1.3562,-1.5414,Cluster 0: Multi-Pollutant Severe Hotspot,0.799,131
+"Lalbagh, Lucknow - CPCB",Lucknow,Uttar Pradesh,26.8458805,80.9365541,28.0,17.0,15.0,15.0,151.0,105.0,6.0,0,2.978,False,1.1814,-1.4319,Cluster 0: Multi-Pollutant Severe Hotspot,0.798,132
+"Opp GPO Civil Lines, Nagpur - MPCB",Nagpur,Maharashtra,21.152875,79.0517531,65.0,1.0,45.0,8.0,117.0,88.0,44.0,3,1.991,False,0.688,2.7218,Cluster 3: Vehicular & Industrial Gas Dominated,0.796,133
+"Ghusuri, Howrah - WBPCB",Howrah,West Bengal,22.611968,88.347422,28.0,11.0,26.0,16.0,137.0,149.0,10.0,0,1.701,False,1.2188,-0.6391,Cluster 0: Multi-Pollutant Severe Hotspot,0.784,134
+"Buddhi Vihar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,28.83526,78.7446,15.0,5.0,29.0,24.0,141.0,114.0,40.0,3,1.585,False,0.5276,1.2706,Cluster 3: Vehicular & Industrial Gas Dominated,0.781,135
+"Savitribai Phule Pune University, Pune - MPCB",Pune,Maharashtra,18.547056,73.826908,83.0,5.0,46.0,2.0,108.0,121.0,3.0,2,2.521,False,1.1813,0.3368,Cluster 2: Multi-Pollutant Severe Hotspot,0.78,136
+"Pali Dungra, Mathura - UPPCB",Mathura,Uttar Pradesh,27.410954,77.550619,48.0,2.0,12.0,12.0,152.0,173.0,14.0,2,1.425,False,0.8966,1.182,Cluster 2: Multi-Pollutant Severe Hotspot,0.775,137
+"Talkatora Garden, Delhi - DPCC",Delhi,Delhi,28.62181,77.1944633,86.0,1.0,27.0,8.0,124.0,143.0,3.0,2,2.444,False,0.8845,0.9628,Cluster 2: Multi-Pollutant Severe Hotspot,0.772,138
+"F-Block, Sirsa - HSPCB",Sirsa,Haryana,29.5364,75.0158,25.0,7.0,29.0,14.0,107.0,42.0,73.0,3,3.035,False,-0.0457,3.1643,Cluster 3: Vehicular & Industrial Gas Dominated,0.77,139
+"Mahashweta Nagar, Ujjain - MPPCB",Ujjain,Madhya Pradesh,23.1633321,75.800225,42.0,12.0,61.0,9.0,101.0,126.0,8.0,0,1.528,False,1.5509,-1.0378,Cluster 0: Multi-Pollutant Severe Hotspot,0.763,140
+"Mansarovar Sector-12, Jaipur - RSPCB",Jaipur,Rajasthan,26.843698,75.766894,40.0,5.0,45.0,26.0,160.0,103.0,8.0,2,1.518,False,1.055,-0.5117,Cluster 2: Multi-Pollutant Severe Hotspot,0.761,141
+"Samrat Ashok Udhyan, Jodhpur - RSPCB",Jodhpur,Rajasthan,26.253384,72.976571,27.0,16.0,27.0,56.0,145.0,48.0,3.0,0,3.587,True,0.5469,-2.8467,Cluster 0: Multi-Pollutant Severe Hotspot,0.753,142
+"Municipal Corporation Office, Dharuhera -  HSPCB",Dharuhera,Haryana,28.2068,76.7997,29.0,12.0,38.0,12.0,121.0,149.0,4.0,0,1.658,False,1.3338,-1.1556,Cluster 0: Multi-Pollutant Severe Hotspot,0.753,142
+"Paryavaran Parisar, Bhopal - MPPCB",Bhopal,Madhya Pradesh,23.210494,77.425409,34.0,2.0,47.0,16.0,129.61,142.0,8.0,2,1.504,False,0.8097,0.0006,Cluster 2: Multi-Pollutant Severe Hotspot,0.749,144
+"Police Commissionerate, Jaipur - RSPCB",Jaipur,Rajasthan,26.9164092,75.7994901,58.0,9.0,33.0,27.0,119.0,89.0,32.0,3,2.065,False,0.8975,0.7376,Cluster 3: Vehicular & Industrial Gas Dominated,0.749,144
+"Khindipada-Bhandup West, Mumbai - IITM",Mumbai,Maharashtra,19.1653323,72.922099,51.0,3.0,35.0,14.0,149.0,147.0,7.0,2,1.094,False,1.1489,0.3053,Cluster 2: Multi-Pollutant Severe Hotspot,0.73,146
+"Deonar, Mumbai - IITM",Mumbai,Maharashtra,19.04946,72.923,60.0,7.0,18.0,3.0,135.0,163.0,5.0,2,1.643,False,1.2344,0.3878,Cluster 2: Multi-Pollutant Severe Hotspot,0.714,147
+"Maharaj Bada, Gwalior - MPPCB",Gwalior,Madhya Pradesh,26.200388,78.147714,17.0,7.0,55.0,48.0,112.0,90.0,9.0,0,2.323,False,0.3489,-1.7655,Cluster 0: Multi-Pollutant Severe Hotspot,0.714,147
+"IHBAS, Dilshad Garden, Delhi - CPCB",Delhi,Delhi,28.6811736,77.3025234,38.0,3.0,25.0,6.0,132.0,171.0,14.0,2,1.259,False,0.8747,0.8965,Cluster 2: Multi-Pollutant Severe Hotspot,0.713,149
+"Maguda Nagar, Indore - IMC",Indore,Madhya Pradesh,22.7524,75.8872,13.54,2.42,4.0,11.0,117.0,190.0,15.0,2,2.37,False,0.0544,0.8407,Cluster 2: Multi-Pollutant Severe Hotspot,0.712,150
+"Sector-51, Gurugram - HSPCB",Gurugram,Haryana,28.4227,77.0667,23.0,13.0,40.0,13.0,116.0,136.0,7.0,0,1.729,False,1.2089,-1.2554,Cluster 0: Multi-Pollutant Severe Hotspot,0.71,151
+"Bhosari, Pune - IITM",Pimpri-Chinchwad,Maharashtra,18.640051,73.848956,66.0,4.41,24.0,6.0,125.0,151.0,17.94,2,1.427,False,1.0725,1.3106,Cluster 2: Multi-Pollutant Severe Hotspot,0.706,152
+"Kasarvadavali, Thane - MPCB",Thane,Maharashtra,19.26777,72.97182,33.0,2.0,70.0,14.0,117.0,66.0,13.0,0,2.529,False,0.4002,-0.1457,Cluster 0: Multi-Pollutant Severe Hotspot,0.703,153
+"Civil Lines, Sagar - MPPCB",Sagar,Madhya Pradesh,23.838586,78.759431,47.0,1.0,22.0,60.0,95.0,135.0,12.0,2,2.709,False,-0.2437,-0.3626,Cluster 2: Multi-Pollutant Severe Hotspot,0.697,154
+"Sidhi Vinayak Nagar, Ulhasnagar - MPCB",Ulhasnagar,Maharashtra,19.235581,73.159121,26.0,2.0,11.0,16.0,120.0,154.0,42.0,3,1.536,False,0.2101,2.3435,Cluster 3: Vehicular & Industrial Gas Dominated,0.693,155
+"Rajlaxmi Nagar, Jhalawar - RSPCB",Jhalawar,Rajasthan,24.588397,76.172782,19.0,8.0,53.0,21.0,104.0,121.0,19.0,0,1.498,False,0.7883,-0.4888,Cluster 0: Multi-Pollutant Severe Hotspot,0.688,156
+"Hakimapada, Angul - OSPCB",Angul,Odisha,20.832874,85.104082,47.0,3.0,46.0,36.0,94.0,83.0,46.0,3,1.778,False,0.2435,1.609,Cluster 3: Vehicular & Industrial Gas Dominated,0.684,157
+"Manoharpur, Agra - UPPCB",Agra,Uttar Pradesh,27.23711,78.01936,16.0,2.0,32.0,6.0,114.0,106.0,54.0,3,1.786,False,0.092,2.7879,Cluster 3: Vehicular & Industrial Gas Dominated,0.684,157
+" Chhatikara, Vrindavan - UPPCB",Vrindavan,Uttar Pradesh,27.57194,77.62346,12.8,4.0,2.0,44.0,180.0,96.72,11.0,2,2.823,False,-0.1465,-0.5043,Cluster 2: Multi-Pollutant Severe Hotspot,0.68,159
+"Raikhad, Ahmedabad - IITM",Ahmedabad,Gujarat,23.020509,72.579261,48.0,14.0,60.0,1.0,77.0,69.0,22.0,0,2.775,False,1.0225,-0.3,Cluster 0: Multi-Pollutant Severe Hotspot,0.678,160
+"Sadar Bazar, Jaisalmer - RSPCB",Jaisalmer,Rajasthan,26.912329,70.909168,9.0,13.0,27.0,63.0,135.0,51.0,3.0,1,3.693,True,-0.0539,-2.9552,Cluster 1: Relatively Low / Baseline Ambient,0.672,161
+"New Mandi, Muzaffarnagar - UPPCB",Muzaffarnagar,Uttar Pradesh,29.4723508,77.7194031,32.0,3.0,34.0,18.0,134.0,142.0,17.0,2,1.099,False,0.7117,0.5108,Cluster 2: Multi-Pollutant Severe Hotspot,0.657,162
+"Panchawati_Pashan, Pune - IITM",Pune,Maharashtra,18.536457,73.805454,66.0,4.46,19.0,12.0,128.0,149.0,17.89,2,1.303,False,0.9695,1.2114,Cluster 2: Multi-Pollutant Severe Hotspot,0.655,163
+"Marhatal, Jabalpur - MPPCB",Jabalpur,Madhya Pradesh,23.168606,79.932247,36.0,7.0,63.0,30.0,116.0,97.0,4.0,0,1.557,False,0.8976,-1.4204,Cluster 0: Multi-Pollutant Severe Hotspot,0.654,164
+"Sanpada, Navi Mumbai - MPCB",Navi Mumbai,Maharashtra,19.0575752,73.0151367,43.0,16.0,49.0,11.0,106.0,87.0,5.0,0,2.367,False,1.2737,-1.6107,Cluster 0: Multi-Pollutant Severe Hotspot,0.653,165
+"Sector - 125, Noida - UPPCB",Noida,Uttar Pradesh,28.5447608,77.3231257,40.0,8.0,39.0,13.0,138.0,126.0,7.0,0,1.235,False,1.1619,-0.467,Cluster 0: Multi-Pollutant Severe Hotspot,0.647,166
+"Dhankawadi, Pune - IITM",Pune,Maharashtra,18.459883,73.852193,43.0,6.63,31.0,32.0,143.0,122.0,11.84,2,1.16,False,0.9235,-0.383,Cluster 2: Multi-Pollutant Severe Hotspot,0.647,166
+"Lodhi Road, Delhi - IITM",Delhi,Delhi,28.588333,77.221667,31.81,9.57,57.0,22.18,140.0,98.0,11.0,0,0.816,False,1.324,-1.0295,Cluster 0: Multi-Pollutant Severe Hotspot,0.647,166
+"Ghoga ,Delhi-DPCC",Delhi,Delhi,28.818435,77.057932,17.0,10.0,42.0,19.0,116.0,126.0,14.0,0,1.452,False,0.8606,-0.8055,Cluster 0: Multi-Pollutant Severe Hotspot,0.64,169
+"Sector-116, Noida - UPPCB",Noida,Uttar Pradesh,28.56923,77.393848,46.0,6.0,40.0,16.0,136.0,120.0,16.0,2,1.0,False,1.072,0.2496,Cluster 2: Multi-Pollutant Severe Hotspot,0.639,170
+"Gavalinagar, Pimpri Chinchwad - MPCB",Pimpri-Chinchwad,Maharashtra,18.63673,73.82487,31.0,5.0,43.0,26.0,127.0,128.0,2.0,2,1.566,False,0.6836,-0.9534,Cluster 2: Multi-Pollutant Severe Hotspot,0.636,171
+"Jadavpur, Kolkata - WBPCB",Kolkata,West Bengal,22.49929,88.36917,40.0,12.0,23.0,11.0,123.0,126.0,11.0,0,1.97,False,1.001,-0.4343,Cluster 0: Multi-Pollutant Severe Hotspot,0.635,172
+"Chembur, Mumbai - MPCB",Mumbai,Maharashtra,19.0364585,72.8954371,45.0,9.0,55.0,11.0,108.0,112.0,14.0,0,1.239,False,1.1961,-0.322,Cluster 0: Multi-Pollutant Severe Hotspot,0.633,173
+"HIMUDA Complex Phase-1, Baddi - HPPCB",Baddi,Himachal Pradesh,30.943887,76.801991,48.0,2.0,12.0,64.0,113.0,100.0,18.66,2,2.927,False,-0.4498,-0.0956,Cluster 2: Multi-Pollutant Severe Hotspot,0.628,174
+"NSIT Dwarka, Delhi - CPCB",Delhi,Delhi,28.60909,77.0325413,15.0,7.0,33.0,21.0,134.0,117.0,13.0,0,1.785,False,0.5092,-0.5018,Cluster 0: Multi-Pollutant Severe Hotspot,0.624,175
+"Dhanmandi, Kota - RSPCB",Kota,Rajasthan,25.16409,75.858137,15.0,6.0,56.0,22.0,97.0,108.0,16.0,0,1.897,False,0.3828,-0.6071,Cluster 0: Multi-Pollutant Severe Hotspot,0.624,175
+"Nathu Colony, Ballabgarh - HSPCB",Ballabgarh,Haryana,28.3419248,77.319699,16.0,4.0,20.0,6.0,112.0,177.0,3.0,2,2.112,False,0.2826,-0.1063,Cluster 2: Multi-Pollutant Severe Hotspot,0.621,177
+"Gole Bazar, Katni - MPPCB",Katni,Madhya Pradesh,23.50016,80.23284,45.0,4.0,35.0,8.0,134.0,114.0,23.0,2,1.258,False,0.7747,1.1098,Cluster 2: Multi-Pollutant Severe Hotspot,0.606,178
+"Bardowali, Agartala - Tripura SPCB",Agartala,Tripura,23.8175497,91.2726974,36.0,7.46,11.0,4.0,155.0,117.0,22.0,2,1.731,False,0.7302,0.9983,Cluster 2: Multi-Pollutant Severe Hotspot,0.605,179
+"Chandkheda, Ahmedabad - IITM",Ahmedabad,Gujarat,23.107969,72.574648,48.0,6.0,54.0,2.0,139.0,57.0,13.0,0,2.158,False,0.8041,0.1463,Cluster 0: Multi-Pollutant Severe Hotspot,0.6,180
+"Sector-1, Noida - UPPCB",Noida,Uttar Pradesh,28.5898,77.3101,35.0,11.0,25.84,25.0,133.0,107.0,14.0,0,1.71,False,0.8324,-0.639,Cluster 0: Multi-Pollutant Severe Hotspot,0.598,181
+"Omex Eternity, Vrindavan - UPPCB",Vrindavan,Uttar Pradesh,27.571409,77.655757,19.0,8.0,27.0,17.0,102.0,148.0,15.0,2,1.81,False,0.4553,-0.2399,Cluster 2: Multi-Pollutant Severe Hotspot,0.598,181
+"Old MIDC, Jalna - MPCB",Jalna,Maharashtra,19.854616,75.905894,16.0,4.0,19.0,32.0,106.0,167.0,1.0,2,2.187,False,-0.0043,-0.9059,Cluster 2: Multi-Pollutant Severe Hotspot,0.594,183
+"Khadakpada, Kalyan - MPCB",Kalyan,Maharashtra,19.25292,73.142019,39.14,1.0,37.0,8.0,117.0,113.0,30.33,3,1.551,False,0.3238,1.7284,Cluster 3: Vehicular & Industrial Gas Dominated,0.592,184
+"Knowledge Park - III, Greater Noida - UPPCB",Greater Noida,Uttar Pradesh,28.47272,77.482,39.0,6.0,60.0,19.0,122.0,89.0,7.2,0,1.489,False,0.837,-0.7766,Cluster 0: Multi-Pollutant Severe Hotspot,0.589,185
+"Golden Temple, Amritsar - PPCB",Amritsar,Punjab,31.62,74.876512,75.0,7.0,28.0,28.0,102.0,92.0,23.0,2,2.15,False,0.5784,0.6717,Cluster 2: Multi-Pollutant Severe Hotspot,0.584,186
+"Rabindra Sarobar, Kolkata - WBPCB",Kolkata,West Bengal,22.51106,88.35142,43.0,10.0,79.0,21.0,67.0,56.0,8.0,0,2.648,False,0.6015,-1.5497,Cluster 0: Multi-Pollutant Severe Hotspot,0.58,187
+"Nayapura, Kota - RSPCB",Kota,Rajasthan,25.196024,75.855668,35.0,11.0,68.0,15.0,100.0,74.0,9.0,0,1.796,False,0.9724,-1.3255,Cluster 0: Multi-Pollutant Severe Hotspot,0.575,188
+"NSI Kalyanpur, Kanpur - UPPCB",Kanpur,Uttar Pradesh,26.509954,80.249612,32.0,2.0,20.0,21.0,106.0,141.0,28.0,3,1.627,False,0.0418,1.3146,Cluster 3: Vehicular & Industrial Gas Dominated,0.555,189
+"Rabindra Bharati University, Kolkata - WBPCB",Kolkata,West Bengal,22.627847,88.380669,44.0,9.0,41.0,39.0,108.0,97.0,6.0,0,1.895,False,0.5844,-1.3779,Cluster 0: Multi-Pollutant Severe Hotspot,0.554,190
+"Kamble Tarf Birwadi, Mahad - MPCB",Mahad,Maharashtra,18.1023399,73.4783687,50.0,5.0,15.0,9.0,120.0,150.0,22.0,2,1.214,False,0.6721,1.2947,Cluster 2: Multi-Pollutant Severe Hotspot,0.553,191
+"Kukrail Picnic Spot-1, Lucknow - UPPCB",Lucknow,Uttar Pradesh,26.90723,80.98579,17.0,6.0,32.0,37.0,109.0,93.0,26.0,1,2.098,False,-0.0702,-0.0943,Cluster 1: Relatively Low / Baseline Ambient,0.549,192
+"Shastri Nagar, Tonk - RSPCB",Tonk,Rajasthan,26.159933,75.780517,49.0,7.0,30.0,34.0,161.0,70.0,1.0,2,2.014,False,0.6093,-1.105,Cluster 2: Multi-Pollutant Severe Hotspot,0.544,193
+"Shahjahan Garden, Agra - UPPCB",Agra,Uttar Pradesh,27.169338,78.03582,22.0,3.3,25.0,0.0,83.0,56.0,71.0,3,2.922,False,-0.6228,3.8049,Cluster 3: Vehicular & Industrial Gas Dominated,0.543,194
+"SRM University, Modinagar - UPPCB",Modinagar,Uttar Pradesh,28.798171,77.540243,22.0,4.0,33.0,4.0,139.0,121.0,10.0,2,1.55,False,0.472,0.1886,Cluster 2: Multi-Pollutant Severe Hotspot,0.532,195
+"More Chowk Waluj, Aurangabad - MPCB",Aurangabad,Maharashtra,19.8389439,75.244448,62.0,7.0,10.0,50.0,104.0,120.0,9.04,2,2.325,False,0.1589,-0.5922,Cluster 2: Multi-Pollutant Severe Hotspot,0.529,196
+"Vikas Sadan, Gurugram - HSPCB",Gurugram,Haryana,28.4501238,77.0263051,46.0,5.97,10.0,6.0,131.0,145.0,20.0,2,1.29,False,0.6737,1.1638,Cluster 2: Multi-Pollutant Severe Hotspot,0.529,196
+"Koyana Nagar, Satara - MPCB",Satara,Maharashtra,17.696651,74.003387,42.0,4.0,27.0,40.0,124.0,125.0,10.0,2,1.346,False,0.3552,-0.399,Cluster 2: Multi-Pollutant Severe Hotspot,0.528,198
+"Rohta, Agra - UPPCB",Agra,Uttar Pradesh,27.106972,78.000111,35.0,5.0,15.0,16.0,146.0,127.0,21.0,2,1.136,False,0.5444,0.8429,Cluster 2: Multi-Pollutant Severe Hotspot,0.524,199
+"Employment Office, Moradabad - UPPCB",Moradabad,Uttar Pradesh,28.88528,78.7388,12.0,3.0,23.0,19.0,119.0,115.0,39.0,3,1.444,False,-0.0736,1.5566,Cluster 3: Vehicular & Industrial Gas Dominated,0.521,200
+"Kareemganj, Gaya - BSPCB",Gaya,Bihar,24.792403,84.992416,51.0,1.0,5.0,33.0,146.0,84.0,40.0,3,1.825,False,-0.1325,2.1934,Cluster 3: Vehicular & Industrial Gas Dominated,0.52,201
+"OP Jindal Industrial Park, Tumidih - CECB",Tumidih,Chhattisgarh,22.06631475,83.33820077,27.0,2.0,71.0,36.0,76.0,69.0,6.0,1,2.641,False,-0.2624,-1.2658,Cluster 1: Relatively Low / Baseline Ambient,0.511,202
+"IMD Lodhi Road, Delhi - IITM",Delhi,Delhi,28.5918245,77.2273074,12.0,8.87,34.0,32.0,129.0,86.0,9.39,0,2.111,False,0.208,-1.3246,Cluster 0: Multi-Pollutant Severe Hotspot,0.51,203
+"Mavdi, Rajkot - Nexteng Enviro ",Rajkot,Gujarat,22.248853,70.776774,39.0,3.0,83.0,21.0,62.0,36.0,12.0,1,3.127,False,-0.19,-0.7221,Cluster 1: Relatively Low / Baseline Ambient,0.507,204
+"Darshan Nagar, Chhapra - BSPCB",Chhapra,Bihar,25.7808257,84.7446768,97.0,0.0,1.0,1.0,101.0,87.0,27.0,2,3.539,True,-0.2702,2.964,Cluster 2: Multi-Pollutant Severe Hotspot,0.49,205
+"Jhalamand, Jodhpur - RSPCB",Jodhpur,Rajasthan,26.215415,73.070156,24.0,12.0,36.0,19.0,146.0,66.0,4.0,0,2.08,False,0.6709,-1.5261,Cluster 0: Multi-Pollutant Severe Hotspot,0.49,205
+"Mahape, Navi Mumbai - MPCB",Navi Mumbai,Maharashtra,19.1135051,73.008978,43.42,1.0,43.0,10.0,150.0,71.0,9.0,2,1.791,False,0.3138,0.3669,Cluster 2: Multi-Pollutant Severe Hotspot,0.477,207
+"Kurla, Mumbai - MPCB",Mumbai,Maharashtra,19.0863,72.8888,25.0,2.0,9.0,29.0,126.0,118.0,29.0,3,1.775,False,-0.2827,1.19,Cluster 3: Vehicular & Industrial Gas Dominated,0.473,208
+"Mudtra Sili, Jalore - RSPCB",Jalore,Rajasthan,25.344694,72.626208,9.0,6.0,13.0,92.0,102.0,40.0,13.0,1,4.183,True,-1.4741,-2.2605,Cluster 1: Relatively Low / Baseline Ambient,0.468,209
+"Thergaon, Pimpri Chinchwad - MPCB",Pimpri-Chinchwad,Maharashtra,18.616318,73.765797,36.0,2.0,17.0,54.0,134.0,78.0,13.0,2,2.449,False,-0.4766,-0.4137,Cluster 2: Multi-Pollutant Severe Hotspot,0.464,210
+"Wave City, Ghaziabad - UPPCB",Ghaziabad,Uttar Pradesh,28.646675,77.489049,41.53,8.16,29.0,20.0,101.0,141.0,5.0,2,1.353,False,0.6281,-0.6574,Cluster 2: Multi-Pollutant Severe Hotspot,0.463,211
+"Khatikan Mohalla, Dausa - RSPCB",Dausa,Rajasthan,26.895552,76.334753,29.0,8.0,39.0,55.0,111.0,63.0,4.0,1,2.529,False,-0.1084,-2.0457,Cluster 1: Relatively Low / Baseline Ambient,0.462,212
+"Tarakpur, Ahmednagar - MPCB",Ahmednagar,Maharashtra,19.10122,74.73339,19.0,2.0,26.0,71.0,98.0,88.0,5.0,1,3.029,False,-0.9678,-1.6892,Cluster 1: Relatively Low / Baseline Ambient,0.461,213
+"Kashiram Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,28.849399,78.742362,33.0,4.0,25.0,15.0,127.0,134.0,18.0,2,0.868,False,0.4594,0.6354,Cluster 2: Multi-Pollutant Severe Hotspot,0.455,214
+"T T Nagar, Bhopal - MPPCB",Bhopal,Madhya Pradesh,23.233584,77.400574,9.0,6.0,43.0,21.0,108.0,78.0,23.0,1,2.023,False,-0.0845,-0.142,Cluster 1: Relatively Low / Baseline Ambient,0.455,214
+"Buddha Colony, Muzaffarpur - BSPCB",Muzaffarpur,Bihar,26.11442,85.39813,34.0,8.0,25.0,23.0,110.0,136.0,10.0,2,1.23,False,0.5267,-0.4734,Cluster 2: Multi-Pollutant Severe Hotspot,0.452,216
+"Kopripada-Vashi, Navi Mumbai - MPCB",Navi Mumbai,Maharashtra,19.090337,73.014232,30.0,4.0,31.0,6.0,122.0,128.0,15.0,2,1.142,False,0.4246,0.5531,Cluster 2: Multi-Pollutant Severe Hotspot,0.445,217
+"PCBL Residential Complex, Durgapur - WBPCB",Durgapur,West Bengal,23.508764,87.35444,36.0,15.0,58.0,12.0,70.0,47.0,12.0,0,2.86,False,0.4807,-1.4707,Cluster 0: Multi-Pollutant Severe Hotspot,0.439,218
+"Transport Nagar, Moradabad - UPPCB",Moradabad,Uttar Pradesh,28.802625,78.753728,36.0,5.0,24.0,8.0,124.0,120.0,22.0,2,1.144,False,0.4308,0.9578,Cluster 2: Multi-Pollutant Severe Hotspot,0.437,219
+"Shastri Nagar, Narnaul - HSPCB",Narnaul,Haryana,28.060249,76.113115,31.12,8.0,54.0,14.0,115.0,79.0,7.0,0,1.554,False,0.5939,-0.94,Cluster 0: Multi-Pollutant Severe Hotspot,0.437,219
+"Sion, Mumbai - MPCB",Mumbai,Maharashtra,19.047,72.8746,16.0,4.0,48.0,26.77,108.0,96.0,5.0,1,1.893,False,-0.0339,-1.056,Cluster 1: Relatively Low / Baseline Ambient,0.437,219
+"Town Hall, Munger - BSPCB",Munger,Bihar,25.376776,86.471523,88.0,3.0,16.0,32.0,78.0,43.0,48.0,3,3.01,False,-0.4623,2.6394,Cluster 3: Vehicular & Industrial Gas Dominated,0.432,222
+"Krishna Nagar, Bharatpur - RSPCB",Bharatpur,Rajasthan,27.215415,77.50873,46.0,2.0,44.0,29.0,133.0,69.0,7.0,2,1.762,False,0.1495,-0.35,Cluster 2: Multi-Pollutant Severe Hotspot,0.431,223
+"Huda Sector, Fatehabad - HSPCB",Fatehabad,Haryana,29.503664,75.467934,51.0,14.0,19.0,17.0,84.0,57.0,32.0,3,2.936,False,0.1791,0.4111,Cluster 3: Vehicular & Industrial Gas Dominated,0.425,224
+"Maninagar, Ahmedabad - GPCB",Ahmedabad,Gujarat,23.002657,72.591912,42.0,5.11,28.0,19.77,121.0,100.0,24.0,2,1.187,False,0.3456,0.7444,Cluster 2: Multi-Pollutant Severe Hotspot,0.42,225
+"Hardev Nagar, Bathinda - PPCB",Bathinda,Punjab,30.233011,74.907758,34.84,4.39,26.0,22.96,120.0,136.0,15.0,2,0.747,False,0.4233,0.2212,Cluster 2: Multi-Pollutant Severe Hotspot,0.419,226
+"Digari Kalan, Jodhpur - RSPCB",Jodhpur,Rajasthan,26.29581,73.082283,65.0,3.0,25.0,19.0,148.0,92.0,2.0,2,1.562,False,0.4806,0.0724,Cluster 2: Multi-Pollutant Severe Hotspot,0.414,227
+"Shivaji Nagar, Mumbai - BMC",Mumbai,Maharashtra,19.060498,72.923356,21.0,2.0,9.0,18.0,119.0,154.0,9.0,2,1.681,False,-0.1895,0.3161,Cluster 2: Multi-Pollutant Severe Hotspot,0.409,228
+"Ballygunge, Kolkata - WBPCB",Kolkata,West Bengal,22.5367507,88.3638022,40.0,7.0,62.0,18.0,81.0,68.0,8.0,0,2.148,False,0.2507,-0.9326,Cluster 0: Multi-Pollutant Severe Hotspot,0.409,228
+"Rama Rao Peta, Kakinada - APPCB",Kakinada,Andhra Pradesh,16.962488,82.229513,100.0,3.0,18.0,21.0,75.0,91.0,11.0,2,3.086,False,-0.0855,0.9942,Cluster 2: Multi-Pollutant Severe Hotspot,0.408,230
+"Haji Colony, Raichur - KSPCB",Raichur,Karnataka,16.208139,77.348417,50.0,7.0,31.0,12.0,101.0,85.0,39.0,3,1.189,False,0.4107,1.6247,Cluster 3: Vehicular & Industrial Gas Dominated,0.401,231
+"SVSPA Campus, Barrackpore - WBPCB",Barrackpore,West Bengal,22.7605581,88.3617589,53.0,11.0,28.0,13.0,93.0,87.0,17.0,2,2.073,False,0.4559,-0.0474,Cluster 2: Multi-Pollutant Severe Hotspot,0.389,232
+"Pragati Nagar, Pratapgarh - RSPCB",Pratapgarh,Rajasthan,24.041198,74.780702,5.0,6.0,35.0,40.0,120.0,84.0,3.0,1,2.154,False,-0.3122,-1.7204,Cluster 1: Relatively Low / Baseline Ambient,0.381,233
+"SAC ISRO Satellite, Ahmedabad - IITM",Ahmedabad,Gujarat,23.023389,72.515201,69.0,2.0,14.0,6.0,137.0,109.0,7.0,2,1.652,False,0.3213,1.0162,Cluster 2: Multi-Pollutant Severe Hotspot,0.364,234
+"Kharahiya Basti, Araria - BSPCB",Araria,Bihar,26.146529,87.454184,26.0,4.0,14.0,14.0,121.0,144.0,11.0,2,1.19,False,0.102,0.3067,Cluster 2: Multi-Pollutant Severe Hotspot,0.356,235
+"Rachnakar Colony, Aurangabad - MPCB",Aurangabad,Maharashtra,19.863756,75.321188,62.0,1.0,39.0,9.0,104.0,102.0,2.0,2,1.833,False,0.1474,0.2828,Cluster 2: Multi-Pollutant Severe Hotspot,0.352,236
+"Indira Colony Vistar, Pali - RSPCB",Pali,Rajasthan,25.771061,73.340227,36.0,8.0,19.0,10.0,140.0,104.0,10.0,2,1.263,False,0.5093,-0.0669,Cluster 2: Multi-Pollutant Severe Hotspot,0.352,236
+"New Industrial Town, Faridabad - HSPCB",Faridabad,Haryana,28.39072,77.30059,17.0,11.0,25.0,14.0,144.0,48.0,9.0,1,2.506,False,0.1022,-1.0001,Cluster 1: Relatively Low / Baseline Ambient,0.352,236
+"Railway Colony, Guwahati - PCBA",Guwahati,Assam,26.181742,91.78063,39.0,1.0,21.92,19.0,120.0,116.0,20.0,2,1.168,False,-0.0507,1.0397,Cluster 2: Multi-Pollutant Severe Hotspot,0.348,239
+"Gandak Colony, Motihari - BSPCB",Motihari,Bihar,26.63086,84.90051,13.0,1.0,3.0,58.0,107.0,117.0,3.0,1,2.891,False,-1.197,-1.0836,Cluster 1: Relatively Low / Baseline Ambient,0.346,240
+"Vithalwadi, Ulhasnagar - MPCB",Ulhasnagar,Maharashtra,19.2307571,73.155192,40.0,7.0,12.0,45.0,116.0,90.0,14.0,2,1.967,False,-0.1841,-0.5454,Cluster 2: Multi-Pollutant Severe Hotspot,0.344,241
+"Patti Mehar, Ambala - HSPCB",Ambala,Haryana,30.379589,76.778328,48.0,6.0,6.0,18.0,127.0,113.0,22.0,2,1.286,False,0.2201,0.97,Cluster 2: Multi-Pollutant Severe Hotspot,0.341,242
+"Cantonment Area, Delhi - DPCC",Delhi,Delhi,28.594169,77.1251,70.0,4.0,39.0,8.0,127.0,47.0,8.0,2,2.163,False,0.2827,0.357,Cluster 2: Multi-Pollutant Severe Hotspot,0.337,243
+"Padmapukur, Howrah - WBPCB",Howrah,West Bengal,22.5687319,88.2797276,55.0,7.0,30.0,14.0,108.0,108.0,13.0,2,1.034,False,0.5582,0.1938,Cluster 2: Multi-Pollutant Severe Hotspot,0.329,244
+"Mahabir Colliery, Asansol - WBPCB",Asansol,West Bengal,23.618183,87.105718,87.0,5.0,7.0,9.0,88.0,105.0,15.0,2,2.489,False,0.051,1.333,Cluster 2: Multi-Pollutant Severe Hotspot,0.327,245
+"Pratap Nagar, Bhilwara - RSPCB",Bhilwara,Rajasthan,25.339605,74.618883,35.0,12.0,41.0,21.0,103.0,62.0,4.0,0,2.162,False,0.3293,-1.5653,Cluster 0: Multi-Pollutant Severe Hotspot,0.324,246
+"Shastri Nagar, Chittorgarh - RSPCB",Chittorgarh,Rajasthan,24.892047,74.623527,25.0,8.0,37.0,26.0,117.0,73.0,10.0,1,1.696,False,0.1031,-0.9521,Cluster 1: Relatively Low / Baseline Ambient,0.324,246
+"Amity University, Panchgaon - IITM",Panchgaon,Haryana,28.3153,76.9143,26.97,1.0,22.0,51.0,98.05,103.64,9.0,1,2.144,False,-0.7874,-0.6451,Cluster 1: Relatively Low / Baseline Ambient,0.319,248
+"Dada Peer, Sasaram - BSPCB",Sasaram,Bihar,24.952822,84.002396,15.0,1.97,22.37,4.0,128.0,113.0,5.0,2,1.951,False,-0.2832,0.1161,Cluster 2: Multi-Pollutant Severe Hotspot,0.317,249
+"Collectorate, Gaya - BSPCB",Gaya,Bihar,24.7955,84.9994,11.0,1.91,9.0,28.0,125.69,119.0,7.0,1,2.1,False,-0.6449,-0.2502,Cluster 1: Relatively Low / Baseline Ambient,0.315,250
+"Bollaram Industrial Area, Hyderabad - TSPCB",Hyderabad,Telangana,17.518,78.383,27.0,0.0,14.0,2.0,119.0,103.0,26.0,3,1.983,False,-0.5128,1.8375,Cluster 3: Vehicular & Industrial Gas Dominated,0.314,251
+"Jigar Colony, Moradabad - UPPCB",Moradabad,Uttar Pradesh,28.856664,78.772638,40.0,6.0,25.0,20.0,118.0,81.0,39.0,3,0.743,False,0.2202,1.4843,Cluster 3: Vehicular & Industrial Gas Dominated,0.312,252
+"Ambazari, Nagpur - MPCB",Nagpur,Maharashtra,21.121801,79.04952,51.0,2.0,32.0,17.0,103.0,80.0,39.0,3,1.0,False,-0.0158,2.0256,Cluster 3: Vehicular & Industrial Gas Dominated,0.309,253
+"Gangineni Cheruvu, Chittoor - APPCB",Chittoor,Andhra Pradesh,13.20488,79.097889,21.0,8.0,34.0,52.0,57.0,65.0,28.0,1,2.565,False,-0.7779,-0.6873,Cluster 1: Relatively Low / Baseline Ambient,0.305,254
+"Urban Estate-II, Hisar - HSPCB",Hisar,Haryana,29.14056,75.744941,15.0,12.0,29.0,7.0,90.0,69.0,21.0,1,2.527,False,-0.1039,-0.3375,Cluster 1: Relatively Low / Baseline Ambient,0.303,255
+"Bhelupur, Varanasi - UPPCB",Varanasi,Uttar Pradesh,25.301778,82.996789,14.0,1.0,17.0,9.0,122.0,93.0,33.0,3,1.676,False,-0.5573,1.731,Cluster 3: Vehicular & Industrial Gas Dominated,0.3,256
+"Bhatagaon New ISBT, Raipur - CECB",Raipur,Chhattisgarh,21.219665,81.630094,55.0,2.0,51.0,2.0,96.0,48.0,13.0,2,2.392,False,-0.1458,0.6207,Cluster 2: Multi-Pollutant Severe Hotspot,0.293,257
+"Central Academy for SFS, Byrnihat - PCBA",Byrnihat,Assam,26.071318,91.87488,63.0,4.0,8.0,18.0,87.0,106.0,30.0,3,1.849,False,-0.2244,1.7535,Cluster 3: Vehicular & Industrial Gas Dominated,0.29,258
+"FTI Kidwai Nagar, Kanpur - UPPCB",Kanpur,Uttar Pradesh,26.428282,80.327067,33.0,3.0,23.0,12.0,128.0,122.0,12.0,2,0.8,False,0.1794,0.4669,Cluster 2: Multi-Pollutant Severe Hotspot,0.286,259
+"Mahesh Nagar, Malegaon - MPCB",Malegaon,Maharashtra,20.555712,74.529236,10.0,1.0,25.0,20.0,114.0,115.0,1.0,1,2.068,False,-0.6059,-0.5392,Cluster 1: Relatively Low / Baseline Ambient,0.286,259
+"Shyam Nagar, Palwal - HSPCB",Palwal,Haryana,28.1485564,77.3320667,93.0,3.0,7.0,32.0,77.0,65.0,20.0,2,3.185,False,-0.611,1.2273,Cluster 2: Multi-Pollutant Severe Hotspot,0.275,261
+"Prabhat Colony, Jalgaon - MPCB",Jalgaon,Maharashtra,21.001264,75.565602,11.0,2.0,40.0,22.0,103.0,95.0,10.0,1,1.677,False,-0.4599,-0.4052,Cluster 1: Relatively Low / Baseline Ambient,0.273,262
+"Tata Township, Bileipada - OSPCB",Bileipada,Odisha,22.06156703,85.47409613,42.0,5.0,16.0,17.0,151.0,100.0,5.0,2,1.033,False,0.3072,-0.0909,Cluster 2: Multi-Pollutant Severe Hotspot,0.271,263
+"Kalindi Kunj, Khurja - UPPCB",Khurja,Uttar Pradesh,28.2348927,77.8683002,25.0,2.0,13.0,7.0,137.0,113.0,10.0,2,1.488,False,-0.2065,0.5942,Cluster 2: Multi-Pollutant Severe Hotspot,0.261,264
+"Fort William, Kolkata - WBPCB",Kolkata,West Bengal,22.55664,88.342674,27.0,8.0,25.0,16.0,110.0,103.0,9.0,2,1.452,False,0.1073,-0.5224,Cluster 2: Multi-Pollutant Severe Hotspot,0.26,265
+"Ardhali Bazar, Varanasi - UPPCB",Varanasi,Uttar Pradesh,25.3505986,82.9083074,14.0,2.39,22.0,12.0,118.0,111.0,5.0,2,1.84,False,-0.4376,-0.1615,Cluster 2: Multi-Pollutant Severe Hotspot,0.25,266
+"Chinna Bharatham Colony, Srikakulam - APPCB",Srikakulam,Andhra Pradesh,18.292191,83.897173,67.0,4.0,23.0,2.0,106.0,94.0,14.0,2,1.593,False,0.1801,1.094,Cluster 2: Multi-Pollutant Severe Hotspot,0.248,267
+"Shastripuram, Agra - UPPCB",Agra,Uttar Pradesh,27.19862,77.92066,31.0,3.0,12.0,4.0,92.0,122.0,36.0,3,1.264,False,-0.3211,2.1313,Cluster 3: Vehicular & Industrial Gas Dominated,0.248,267
+"ATP Colony, Anpara - UPPCB",Anpara,Uttar Pradesh,24.206626,82.775274,36.0,1.0,42.0,29.28,63.0,61.0,41.0,3,1.821,False,-0.7972,1.5063,Cluster 3: Vehicular & Industrial Gas Dominated,0.239,269
+"Suhagi, Jabalpur - JMC",Jabalpur,Madhya Pradesh,23.218135,79.95777,62.0,6.0,17.0,15.0,112.0,107.0,13.0,2,1.084,False,0.3208,0.5353,Cluster 2: Multi-Pollutant Severe Hotspot,0.238,270
+"Katrap, Badlapur - MPCB",Badlapur,Maharashtra,19.16485,73.23409,37.0,5.0,19.0,35.0,106.0,113.0,7.0,2,1.309,False,-0.1618,-0.5768,Cluster 2: Multi-Pollutant Severe Hotspot,0.234,271
+"MIDC Khutala, Chandrapur - MPCB",Chandrapur,Maharashtra,19.9775302,79.2337086,41.0,5.0,18.0,2.0,139.0,82.0,16.0,2,1.342,False,0.1316,0.8385,Cluster 2: Multi-Pollutant Severe Hotspot,0.229,272
+"Chauhan Colony, Chandrapur - MPCB",Chandrapur,Maharashtra,19.9629,79.298714,29.0,2.0,18.0,30.0,125.0,98.0,12.0,2,1.384,False,-0.3981,0.0644,Cluster 2: Multi-Pollutant Severe Hotspot,0.229,272
+"Nagla Bhau, Firozabad - UPPCB",Firozabad,Uttar Pradesh,27.168897,78.37696,24.0,2.61,17.0,10.0,116.0,94.0,30.0,3,1.335,False,-0.3855,1.4854,Cluster 3: Vehicular & Industrial Gas Dominated,0.227,274
+"IGNOU_Maidan Garhi, Delhi - DPCC",Delhi,Delhi,28.493624,77.201159,47.0,2.0,38.0,7.0,141.0,33.0,7.0,2,2.133,False,-0.1771,0.2301,Cluster 2: Multi-Pollutant Severe Hotspot,0.225,275
+"Badarpur,Delhi-DPCC",Delhi,Delhi,28.513305,77.32634,27.6,14.0,27.0,16.0,77.0,74.0,7.0,1,2.626,False,-0.0692,-1.4148,Cluster 1: Relatively Low / Baseline Ambient,0.223,276
+"City Railway Station, Bengaluru - KSPCB",Bengaluru,Karnataka,12.9756843,77.5660749,55.0,6.15,28.0,24.63,101.0,97.92,10.0,2,1.109,False,0.1974,-0.1705,Cluster 2: Multi-Pollutant Severe Hotspot,0.222,277
+"Chinchpada, Ambernath - MPCB",Ambernath,Maharashtra,19.215784,73.199781,41.0,1.0,12.0,20.0,129.0,77.0,35.0,3,1.189,False,-0.4047,1.9685,Cluster 3: Vehicular & Industrial Gas Dominated,0.22,278
+"Civil Line, Jalandhar - PPCB",Jalandhar,Punjab,31.321907,75.578914,45.0,6.0,55.0,23.0,56.0,65.0,12.0,1,2.059,False,-0.2488,-0.6092,Cluster 1: Relatively Low / Baseline Ambient,0.216,279
+"Peenya, Bengaluru - CPCB",Bengaluru,Karnataka,13.0270199,77.494094,37.0,5.0,23.0,23.0,110.45,119.03,12.0,2,0.669,False,0.1171,-0.0073,Cluster 2: Multi-Pollutant Severe Hotspot,0.212,280
+"Mindspace-Malad West, Mumbai - MPCB",Mumbai,Maharashtra,19.1878657,72.8304069,66.0,9.0,35.0,18.0,75.0,57.0,10.0,2,2.39,False,-0.0013,-0.3773,Cluster 2: Multi-Pollutant Severe Hotspot,0.21,281
+"Chhawla,Delhi-DPCC",Delhi,Delhi,28.553573,76.993845,29.0,7.0,14.0,18.0,134.0,94.0,6.0,2,1.408,False,-0.0075,-0.462,Cluster 2: Multi-Pollutant Severe Hotspot,0.201,282
+"Lingraj Mandir, Bhubaneswar - OSPCB",Bhubaneswar,Odisha,20.24079,85.836784,35.0,3.0,23.0,39.0,86.0,95.0,19.0,1,1.59,False,-0.6197,0.0903,Cluster 1: Relatively Low / Baseline Ambient,0.197,283
+"Sector-2E Kalamboli, Navi Mumbai - MPCB",Navi Mumbai,Maharashtra,19.02579,73.10297,29.0,13.0,19.0,17.0,112.0,56.0,5.0,1,2.528,False,-0.0688,-1.3193,Cluster 1: Relatively Low / Baseline Ambient,0.196,284
+"Science Center, Surat - SMC",Surat,Gujarat,21.170046,72.795405,35.67,2.73,5.0,28.95,114.0,100.0,21.0,2,1.587,False,-0.5732,0.7793,Cluster 2: Multi-Pollutant Severe Hotspot,0.195,285
+"Maldahiya, Varanasi - UPPCB",Varanasi,Uttar Pradesh,25.32393,82.99687,26.0,1.0,15.0,7.0,131.0,70.0,30.0,3,1.631,False,-0.587,1.7549,Cluster 3: Vehicular & Industrial Gas Dominated,0.189,286
+"Powai, Mumbai - MPCB",Mumbai,Maharashtra,19.1375,72.915056,46.84,2.0,27.08,12.2,104.0,77.0,34.0,3,1.019,False,-0.2229,1.855,Cluster 3: Vehicular & Industrial Gas Dominated,0.187,287
+"Deopur, Dhule - MPCB",Dhule,Maharashtra,20.918946,74.776388,8.0,1.0,43.0,15.0,97.0,87.0,3.0,1,1.973,False,-0.7158,-0.6344,Cluster 1: Relatively Low / Baseline Ambient,0.182,288
+"RIMT University, Mandi Gobindgarh - PPCB",Mandi Gobindgarh,Punjab,30.649961,76.331442,47.0,5.0,21.0,23.0,122.0,109.0,11.0,2,0.489,False,0.2383,0.0889,Cluster 2: Multi-Pollutant Severe Hotspot,0.181,289
+"Maidan Garhi ,Delhi-DPCC",Delhi,Delhi,28.475672,77.213538,45.0,2.0,19.0,34.0,103.0,108.0,7.0,2,1.361,False,-0.3979,-0.1379,Cluster 2: Multi-Pollutant Severe Hotspot,0.178,290
+"Housing Board, Hanumangarh - RSPCB",Hanumangarh,Rajasthan,29.61075,74.283608,16.0,4.0,40.0,26.0,114.0,71.0,5.0,1,1.541,False,-0.3859,-0.9842,Cluster 1: Relatively Low / Baseline Ambient,0.177,291
+"Ward-32 Bapupara, Siliguri - WBPCB",Siliguri,West Bengal,26.6879226,88.4152495,34.0,13.0,49.0,9.0,69.0,33.0,6.0,1,2.858,False,-0.107,-1.4796,Cluster 1: Relatively Low / Baseline Ambient,0.176,292
+"Zoo Park, Hyderabad - TSPCB",Hyderabad,Telangana,17.349694,78.451437,16.0,2.0,3.0,3.0,117.0,126.0,1.0,2,2.281,False,-0.7234,0.171,Cluster 2: Multi-Pollutant Severe Hotspot,0.175,293
+"Sector-7, Kurukshetra - HSPCB",Kurukshetra,Haryana,29.966942,76.875879,12.0,2.0,4.0,14.0,116.0,119.0,7.0,1,2.089,False,-0.818,0.158,Cluster 1: Relatively Low / Baseline Ambient,0.174,294
+"Bamboliya, Baran - RSPCB",Baran,Rajasthan,25.106006,76.469948,55.0,5.0,37.0,26.0,99.0,61.0,8.0,2,1.686,False,-0.13,-0.3977,Cluster 2: Multi-Pollutant Severe Hotspot,0.173,295
+"Raja Ganj, Dholpur - RSPCB",Dholpur,Rajasthan,26.699557,77.898881,55.0,8.0,28.0,23.0,112.0,56.0,7.0,2,1.784,False,0.0414,-0.5807,Cluster 2: Multi-Pollutant Severe Hotspot,0.171,296
+"Collectorate, Jodhpur - RSPCB",Jodhpur,Rajasthan,26.268249,73.0193853,33.0,3.0,17.0,17.0,140.0,94.0,7.0,2,1.112,False,-0.141,0.0763,Cluster 2: Multi-Pollutant Severe Hotspot,0.169,297
+"Gokul Nagar, Bhiwandi - MPCB",Bhiwandi,Maharashtra,19.309073,73.057223,38.0,3.0,32.0,18.0,123.0,82.0,7.0,2,1.128,False,-0.0933,-0.1212,Cluster 2: Multi-Pollutant Severe Hotspot,0.168,298
+"Anthoni Pillai Nagar, Gummidipoondi - TNPCB",Gummidipoondi,Tamil Nadu,13.4127,80.1081,25.64,6.0,19.0,14.0,108.0,78.0,23.0,1,1.616,False,-0.3699,0.5593,Cluster 1: Relatively Low / Baseline Ambient,0.165,299
+"B R Ambedkar University, Lucknow - UPPCB",Lucknow,Uttar Pradesh,26.766433,80.927299,38.0,4.0,14.0,15.0,95.0,107.0,37.0,3,0.702,False,-0.2403,1.8425,Cluster 3: Vehicular & Industrial Gas Dominated,0.156,300
+"Botanical Garden, Howrah - WBPCB",Howrah,West Bengal,22.554954,88.292568,42.0,1.0,18.0,33.0,93.0,110.0,10.0,2,1.508,False,-0.6215,0.1317,Cluster 2: Multi-Pollutant Severe Hotspot,0.156,300
+"Punjab Agricultural University, Ludhiana - PPCB",Ludhiana,Punjab,30.9028,75.8086,27.0,4.0,20.0,23.0,107.0,105.0,13.0,2,1.162,False,-0.3415,0.0239,Cluster 2: Multi-Pollutant Severe Hotspot,0.152,302
+"Kalidaspur, Balasore - OSPCB",Balasore,Odisha,21.51161,86.89088,46.0,3.0,15.0,47.0,82.0,85.0,16.0,1,1.984,False,-0.8505,-0.0703,Cluster 1: Relatively Low / Baseline Ambient,0.145,303
+"Chitragupta Nagar, Siwan - BSPCB",Siwan,Bihar,26.2271665,84.3570427,66.0,1.0,2.0,7.0,104.0,118.0,5.0,2,1.953,False,-0.4071,1.0595,Cluster 2: Multi-Pollutant Severe Hotspot,0.141,304
+"DRM Office Danapur, Patna - BSPCB",Patna,Bihar,25.586562,85.043586,62.0,7.0,37.0,21.0,84.0,51.0,6.0,2,2.163,False,-0.1671,-0.5525,Cluster 2: Multi-Pollutant Severe Hotspot,0.139,305
+"Karni Colony, Nagaur - RSPCB",Nagaur,Rajasthan,27.213494,73.734444,12.0,5.0,13.0,49.0,130.0,56.0,7.0,1,2.167,False,-0.9342,-1.2888,Cluster 1: Relatively Low / Baseline Ambient,0.132,306
+"Bapunagar, Vadodara - Nexteng Enviro",Vadodara,Gujarat,22.320153,73.216285,30.99,4.0,17.0,5.0,131.0,89.0,11.0,2,1.283,False,-0.1829,0.4573,Cluster 2: Multi-Pollutant Severe Hotspot,0.131,307
+"Sanathnagar, Hyderabad - TSPCB",Hyderabad,Telangana,17.4559458,78.4332152,42.0,7.1,33.0,14.0,102.21,66.0,10.9,2,1.51,False,-0.0594,-0.2562,Cluster 2: Multi-Pollutant Severe Hotspot,0.13,308
+"Idgah Hills, Bhopal - MPPCB",Bhopal,Madhya Pradesh,23.264759,77.381568,21.0,4.0,28.0,58.0,96.0,54.0,9.0,1,2.138,False,-1.0369,-1.4153,Cluster 1: Relatively Low / Baseline Ambient,0.122,309
+"Sector-10, Gandhinagar - GPCB",Gandhinagar,Gujarat,23.221714,72.654328,19.0,1.0,12.0,5.0,110.0,112.0,6.0,2,1.954,False,-0.7709,0.4062,Cluster 2: Multi-Pollutant Severe Hotspot,0.12,310
+"Bidhannagar, Kolkata - WBPCB",Kolkata,West Bengal,22.58157048,88.41002457,41.0,7.0,23.0,36.0,81.0,85.0,14.0,1,1.536,False,-0.4044,-0.5037,Cluster 1: Relatively Low / Baseline Ambient,0.115,311
+"Sector 11, Faridabad - HSPCB",Faridabad,Haryana,28.376058,77.315741,38.0,6.0,31.0,6.0,124.0,50.0,8.0,2,1.736,False,-0.1378,-0.1363,Cluster 2: Multi-Pollutant Severe Hotspot,0.114,312
+"Mariam Nagar, Purnia - BSPCB",Purnia,Bihar,25.366336,87.117468,57.0,4.0,18.0,20.34,74.0,109.0,16.0,2,1.404,False,-0.3421,0.6557,Cluster 2: Multi-Pollutant Severe Hotspot,0.114,312
+"Jhunsi, Prayagraj - UPPCB",Prayagraj,Uttar Pradesh,25.425602,81.917152,41.0,6.0,6.0,37.0,83.0,68.0,40.0,3,1.705,False,-0.7934,1.2763,Cluster 3: Vehicular & Industrial Gas Dominated,0.111,314
+"IESD Banaras Hindu University, Varanasi - UPPCB",Varanasi,Uttar Pradesh,25.262326,82.995408,11.0,0.0,14.0,3.0,114.0,66.0,29.0,3,2.21,False,-1.1416,1.6806,Cluster 3: Vehicular & Industrial Gas Dominated,0.106,315
+"MIDC Chilkalthana, Aurangabad - MPCB",Aurangabad,Maharashtra,19.87562,75.38731,33.0,6.0,1.0,24.0,109.0,118.0,4.0,2,1.579,False,-0.4247,-0.3934,Cluster 2: Multi-Pollutant Severe Hotspot,0.105,316
+"Priyambada Housing Estate, Haldia - WBPCB",Haldia,West Bengal,22.06047,88.109737,34.0,5.0,29.0,20.0,101.0,86.0,12.0,2,1.142,False,-0.2434,-0.1348,Cluster 2: Multi-Pollutant Severe Hotspot,0.105,316
+"Belur Math, Howrah - WBPCB",Howrah,West Bengal,22.629801,88.352017,18.0,2.0,22.0,13.0,101.0,91.0,19.0,1,1.509,False,-0.7267,0.6574,Cluster 1: Relatively Low / Baseline Ambient,0.101,318
+"Anand Vihar, Hapur - UPPCB",Hapur,Uttar Pradesh,28.725645,77.749675,33.0,10.0,8.0,11.0,91.0,93.0,12.0,2,2.022,False,-0.3201,-0.1928,Cluster 2: Multi-Pollutant Severe Hotspot,0.098,319
+"Anand Kala Kshetram, Rajamahendravaram - APPCB",Rajamahendravaram,Andhra Pradesh,16.9872867,81.7363176,22.0,6.0,26.0,26.0,97.0,85.0,16.0,1,1.143,False,-0.4233,-0.2937,Cluster 1: Relatively Low / Baseline Ambient,0.082,320
+"Sahilara, Maihar - KJS Cements",Maihar,Madhya Pradesh,24.2613009,80.7231783,19.0,8.93,58.0,8.92,61.0,37.0,9.0,1,2.375,False,-0.4849,-1.1832,Cluster 1: Relatively Low / Baseline Ambient,0.08,321
+"Adarsh Nagar, Jaipur - RSPCB",Jaipur,Rajasthan,26.902909,75.836858,26.0,8.0,28.0,38.0,72.0,61.0,23.0,1,1.734,False,-0.6977,-0.4672,Cluster 1: Relatively Low / Baseline Ambient,0.072,322
+"Asansol Court Area, Asansol - WBPCB",Asansol,West Bengal,23.685297,86.945968,36.0,5.0,19.0,11.0,95.0,105.0,15.0,2,1.059,False,-0.2658,0.4555,Cluster 2: Multi-Pollutant Severe Hotspot,0.072,322
+"Dhoinda, Rajsamand - RSPCB",Rajsamand,Rajasthan,25.03636,73.883502,26.0,13.0,22.0,48.0,68.0,46.0,9.0,1,2.687,False,-0.7539,-2.0431,Cluster 1: Relatively Low / Baseline Ambient,0.069,324
+"Vaikuntapuram, Tirupati - APPCB",Tirupati,Andhra Pradesh,13.615387,79.40923,22.0,7.0,30.0,38.0,83.0,69.0,17.0,1,1.408,False,-0.6184,-0.7555,Cluster 1: Relatively Low / Baseline Ambient,0.06,325
+"Motilal Nehru NIT, Prayagraj - UPPCB",Prayagraj,Uttar Pradesh,25.494,81.863,47.0,8.0,12.0,7.0,81.0,68.0,33.0,3,1.733,False,-0.4201,1.4207,Cluster 3: Vehicular & Industrial Gas Dominated,0.057,326
+"Meher Colony, Baripada - OSPCB",Baripada,Odisha,21.941841,86.728318,11.0,1.0,36.0,1.0,91.0,82.0,7.0,1,1.976,False,-0.8854,0.0639,Cluster 1: Relatively Low / Baseline Ambient,0.054,327
+"Colaba, Mumbai - MPCB",Mumbai,Maharashtra,18.91,72.82,28.94,4.0,27.0,21.93,104.0,63.0,21.0,1,1.247,False,-0.5655,0.3593,Cluster 1: Relatively Low / Baseline Ambient,0.049,328
+"New Tehsil, Shamli - UPPCB",Shamli,Uttar Pradesh,29.4603683,77.3410291,67.0,2.0,21.0,33.0,73.0,70.0,7.0,2,2.233,False,-0.8387,0.028,Cluster 2: Multi-Pollutant Severe Hotspot,0.039,329
+"Bhoiwada, Dungarpur - RSPCB",Dungarpur,Rajasthan,23.837789,73.714926,28.0,6.0,18.0,9.0,94.0,103.0,4.0,2,1.552,False,-0.4257,-0.3463,Cluster 2: Multi-Pollutant Severe Hotspot,0.037,330
+"Bir, Beed - MPCB",Beed,Maharashtra,18.988474,75.753873,43.0,3.0,26.0,24.0,88.0,79.0,16.0,1,1.293,False,-0.5751,0.3347,Cluster 1: Relatively Low / Baseline Ambient,0.037,330
+"Borivali East, Mumbai - MPCB",Mumbai,Maharashtra,19.2243333,72.8658113,7.0,2.0,10.0,16.04,99.0,98.0,18.0,1,1.753,False,-1.0988,0.5348,Cluster 1: Relatively Low / Baseline Ambient,0.036,332
+"Subash Chowk, Churu - RSPCB",Churu,Rajasthan,28.296139,74.961696,11.0,10.0,13.0,65.0,90.0,30.0,5.0,1,3.052,False,-1.36,-2.4827,Cluster 1: Relatively Low / Baseline Ambient,0.026,333
+"Radhakishan Pura, Sikar - RSPCB",Sikar,Rajasthan,27.608912,75.153302,35.0,8.0,19.0,56.0,79.0,55.0,6.0,1,2.256,False,-0.9382,-1.6914,Cluster 1: Relatively Low / Baseline Ambient,0.025,334
+"Dasnagar, Howrah - WBPCB",Howrah,West Bengal,22.6025571,88.3105664,53.0,4.0,9.0,8.0,89.0,103.0,16.0,2,1.369,False,-0.4269,1.0376,Cluster 2: Multi-Pollutant Severe Hotspot,0.024,335
+"Gobind Pura, Yamuna Nagar - HSPCB",Yamuna Nagar,Haryana,30.1480566,77.2893471,35.0,4.0,16.0,15.0,86.0,112.0,12.0,2,1.135,False,-0.5058,0.3108,Cluster 2: Multi-Pollutant Severe Hotspot,0.02,336
+"Pandav Nagari, Nashik - MPCB",Nashik,Maharashtra,19.9591346,73.7788008,42.0,3.0,19.0,3.0,106.0,97.0,4.0,2,1.35,False,-0.3692,0.3093,Cluster 2: Multi-Pollutant Severe Hotspot,0.019,337
+"MIDC Ambad, Nashik - MPCB",Nashik,Maharashtra,19.95022,73.73148,25.0,3.0,22.0,7.0,96.0,88.0,15.0,1,1.381,False,-0.6632,0.5492,Cluster 1: Relatively Low / Baseline Ambient,0.009,338
+"Ashok Nagar, Udaipur - RSPCB",Udaipur,Rajasthan,24.5886166,73.6321397,11.0,3.0,17.0,8.0,111.0,88.0,8.0,1,1.639,False,-0.823,0.0098,Cluster 1: Relatively Low / Baseline Ambient,0.004,339
+"MD University, Rohtak - HSPCB",Rohtak,Haryana,28.52123,76.37138,37.0,5.99,9.0,9.0,91.0,108.0,11.0,2,1.335,False,-0.4336,0.3046,Cluster 2: Multi-Pollutant Severe Hotspot,0.001,340
+"Raghunathpali, Rourkela - OSPCB",Rourkela,Odisha,22.220833,84.809444,54.0,8.0,17.0,2.0,91.0,73.0,5.0,2,1.956,False,-0.2616,-0.0326,Cluster 2: Multi-Pollutant Severe Hotspot,-0.001,341
+"Patia, Bhubaneswar - OSPCB",Bhubaneswar,Odisha,20.34652,85.8163,41.0,2.0,35.0,39.0,79.0,55.0,14.0,1,1.559,False,-0.9082,-0.2646,Cluster 1: Relatively Low / Baseline Ambient,-0.003,342
+"Mayaganj, Bhagalpur - BSPCB",Bhagalpur,Bihar,25.265194,87.012947,43.21,4.0,22.0,9.0,60.0,64.0,46.0,3,1.341,False,-0.7953,2.3429,Cluster 3: Vehicular & Industrial Gas Dominated,-0.009,343
+"Shivaji Nagar, Jhansi - UPPCB",Jhansi,Uttar Pradesh,25.4547,78.6039,25.0,4.0,6.0,5.0,108.37,68.0,30.0,3,1.617,False,-0.8442,1.5439,Cluster 3: Vehicular & Industrial Gas Dominated,-0.009,343
+"Muradpur, Patna - BSPCB",Patna,Bihar,25.619651,85.147382,53.0,5.0,4.0,7.0,105.0,97.0,9.0,2,1.392,False,-0.3648,0.6191,Cluster 2: Multi-Pollutant Severe Hotspot,-0.015,345
+"OMC Colony, Suakati - OSPCB",Suakati,Odisha,21.606865,85.510538,13.0,3.0,18.0,20.0,90.0,64.0,28.0,1,1.708,False,-1.1552,0.8033,Cluster 1: Relatively Low / Baseline Ambient,-0.017,346
+"Toll Gate, Tirumala - APPCB",Tirumala,Andhra Pradesh,13.67,79.35,23.0,3.0,73.0,24.0,25.0,27.0,2.0,1,2.866,False,-1.2665,-1.5524,Cluster 1: Relatively Low / Baseline Ambient,-0.017,346
+"Hirawadi, Nashik - MPCB",Nashik,Maharashtra,20.021503,73.813844,55.0,3.0,9.0,3.0,94.0,91.0,14.0,2,1.566,False,-0.5484,1.1627,Cluster 2: Multi-Pollutant Severe Hotspot,-0.017,346
+"Shri Shivaji Science College, Amravati - MPCB",Amravati,Maharashtra,20.939198,77.765701,25.0,2.0,23.0,46.0,93.0,64.0,13.0,1,1.546,False,-1.1319,-0.5267,Cluster 1: Relatively Low / Baseline Ambient,-0.02,349
+"Indra Nagar, Jhunjhunu - RSPCB",Jhunjhunu,Rajasthan,28.108988,75.386577,17.0,8.0,28.0,51.0,89.0,42.0,3.0,1,2.114,False,-0.9945,-2.1084,Cluster 1: Relatively Low / Baseline Ambient,-0.021,350
+"Police Lines, Jind - HSPCB",Jind,Haryana,29.307814,76.337619,7.0,5.0,13.0,11.0,65.0,84.0,29.0,1,2.081,False,-1.2516,0.8654,Cluster 1: Relatively Low / Baseline Ambient,-0.024,351
+"Airport Area, Indore - IMC",Indore,Madhya Pradesh,22.7289,75.8076,56.0,0.0,17.0,6.0,83.0,73.12,16.17,2,2.005,False,-0.9288,1.3915,Cluster 2: Multi-Pollutant Severe Hotspot,-0.025,352
+"Divisional Forest Office, Rairangpur - OSPCB",Rairangpur,Odisha,22.265816,86.174829,23.0,5.59,21.15,4.0,89.0,80.0,16.9,1,1.464,False,-0.6363,0.4143,Cluster 1: Relatively Low / Baseline Ambient,-0.033,353
+"Mirchaibari, Katihar - BSPCB",Katihar,Bihar,25.560083,87.553265,64.0,1.0,9.0,10.0,77.0,76.0,18.0,2,2.132,False,-0.9562,1.4942,Cluster 2: Multi-Pollutant Severe Hotspot,-0.033,353
+"Tondare-Taloja, Navi Mumbai - MPCB",Navi Mumbai,Maharashtra,19.063,73.1209,38.0,7.0,10.0,5.0,103.0,74.0,13.0,2,1.645,False,-0.4837,0.3582,Cluster 2: Multi-Pollutant Severe Hotspot,-0.034,355
+"Masoom Colony, Parbhani - MPCB",Parbhani,Maharashtra,19.265594,76.761463,12.0,6.0,11.0,45.0,97.0,69.0,12.0,1,1.708,False,-1.1261,-0.9972,Cluster 1: Relatively Low / Baseline Ambient,-0.045,356
+"PWD Junction, Kohima - NPCB",Kohima,Nagaland,25.6635413,94.0989878,6.0,3.33,12.36,9.69,25.0,27.0,64.0,3,3.387,True,-2.2192,2.9321,Cluster 3: Vehicular & Industrial Gas Dominated,-0.049,357
+"Ambedkar Nagar, Nellore - APPCB ",Nellore,Andhra Pradesh,14.438164,79.966814,38.0,6.0,33.0,44.0,58.0,45.0,19.0,1,1.771,False,-0.9943,-0.598,Cluster 1: Relatively Low / Baseline Ambient,-0.054,358
+"Bhayandar West, Mira-Bhayandar - MPCB",Mira-Bhayandar,Maharashtra,19.296481,72.840923,43.0,5.0,11.0,1.0,110.0,77.0,6.0,2,1.579,False,-0.4937,0.337,Cluster 2: Multi-Pollutant Severe Hotspot,-0.065,359
+"Secretariat, Amaravati - APPCB",Amaravati,Andhra Pradesh,16.5150833,80.5181667,24.0,5.0,37.0,8.0,90.0,44.0,18.0,1,1.439,False,-0.6891,0.1767,Cluster 1: Relatively Low / Baseline Ambient,-0.07,360
+"Sector 30, Faridabad - HSPCB",Faridabad,Haryana,28.4417,77.3217,26.0,6.0,37.0,1.0,106.0,33.0,2.0,1,1.954,False,-0.6028,-0.6624,Cluster 1: Relatively Low / Baseline Ambient,-0.079,361
+"Vigyan Nagar, Alwar - RSPCB",Alwar,Rajasthan,27.598796,76.63861,24.0,1.0,24.0,31.0,92.0,83.0,7.0,1,1.229,False,-1.0344,-0.373,Cluster 1: Relatively Low / Baseline Ambient,-0.08,362
+"Gangapur Road, Nashik - MPCB",Nashik,Maharashtra,20.0073285,73.7762427,52.0,4.82,13.0,2.0,94.0,82.0,5.0,2,1.632,False,-0.5117,0.3557,Cluster 2: Multi-Pollutant Severe Hotspot,-0.081,363
+"Sita Rama Nagar, Kurnool - APPCB",Kurnool,Andhra Pradesh,15.83411,78.028546,12.0,6.0,33.0,21.0,73.0,69.0,18.0,1,1.228,False,-0.8403,-0.3437,Cluster 1: Relatively Low / Baseline Ambient,-0.082,364
+"Ramteerth Nagar, Belgaum - KSPCB",Belgaum,Karnataka,15.888653,74.541751,31.0,8.0,37.0,19.0,69.0,55.0,14.0,1,1.366,False,-0.5616,-0.5722,Cluster 1: Relatively Low / Baseline Ambient,-0.085,365
+"Ratandeep Housing Society, Solapur - MPCB",Solapur,Maharashtra,17.65439,75.90649,24.0,3.0,22.0,44.0,89.0,70.0,8.0,1,1.367,False,-1.1074,-0.8693,Cluster 1: Relatively Low / Baseline Ambient,-0.091,366
+"Ferro Chrome Colony, Byasanagar - OSPCB",Byasanagar,Odisha,20.94185,86.1151,33.0,6.0,21.0,55.0,61.0,55.0,12.0,1,1.973,False,-1.2655,-1.1796,Cluster 1: Relatively Low / Baseline Ambient,-0.096,367
+"Womens College_City Center, Durgapur - WBPCB",Durgapur,West Bengal,23.549395,87.300496,40.0,3.0,28.0,1.0,80.0,67.0,12.0,1,1.622,False,-0.7669,0.5825,Cluster 1: Relatively Low / Baseline Ambient,-0.1,368
+"Barsua Iron Ore Mines, Tensa - OSPCB",Tensa,Odisha,21.869985,85.167016,39.0,5.0,7.0,4.0,96.0,52.0,29.0,3,1.709,False,-0.8841,1.5252,Cluster 3: Vehicular & Industrial Gas Dominated,-0.105,369
+"Pimpleshwar Mandir, Kalyan - MPCB",Kalyan,Maharashtra,19.192056,72.9585188,3.0,2.0,18.0,17.0,112.0,69.4,6.0,1,1.651,False,-1.2085,-0.3905,Cluster 1: Relatively Low / Baseline Ambient,-0.109,370
+"Tata Stadium, Jorapokhar - JSPCB",Jorapokhar,Jharkhand,23.707909,86.41467,39.0,3.0,8.0,5.0,90.0,67.0,21.43,1,1.802,False,-1.0185,1.283,Cluster 1: Relatively Low / Baseline Ambient,-0.111,371
+"Trivenidevi Bhalotia College, Asansol - WBPCB",Asansol,West Bengal,23.616515,87.119133,47.0,2.0,35.0,3.0,62.0,53.0,15.0,1,1.905,False,-0.962,0.7627,Cluster 1: Relatively Low / Baseline Ambient,-0.121,372
+"Khaira, Boisar - MPCB",Boisar,Maharashtra,19.786089,72.757971,31.0,5.0,33.0,15.0,84.0,69.0,10.0,1,0.971,False,-0.5893,-0.2788,Cluster 1: Relatively Low / Baseline Ambient,-0.122,373
+"DM Office_Kachari Chowk, Bhagalpur - BSPCB",Bhagalpur,Bihar,25.251013,86.989001,13.0,4.0,21.0,9.0,94.0,56.0,22.0,1,1.5,False,-1.0576,0.5761,Cluster 1: Relatively Low / Baseline Ambient,-0.124,374
+"Kalal Majra, Khanna - PPCB",Khanna,Punjab,30.736056,76.209694,61.0,6.0,22.0,18.0,75.0,44.0,9.0,1,1.961,False,-0.7425,-0.0497,Cluster 1: Relatively Low / Baseline Ambient,-0.135,375
+"Mandor, Jodhpur - RSPCB",Jodhpur,Rajasthan,26.358805,73.047444,10.0,4.0,17.0,41.0,116.0,39.0,7.0,1,1.68,False,-1.2888,-1.114,Cluster 1: Relatively Low / Baseline Ambient,-0.143,376
+"Katraj Dairy, Pune - MPCB",Pune,Maharashtra,18.45445,73.854155,47.0,2.0,24.0,11.0,95.0,55.0,4.0,1,1.656,False,-0.8734,0.106,Cluster 1: Relatively Low / Baseline Ambient,-0.151,377
+"Govindpuram, Ghaziabad - UPPCB",Ghaziabad,Uttar Pradesh,28.694528,77.494705,17.0,1.0,17.0,8.0,66.0,96.0,15.0,1,1.554,False,-1.3448,0.6645,Cluster 1: Relatively Low / Baseline Ambient,-0.169,378
+"Model Town, Patiala - PPCB",Patiala,Punjab,30.349388,76.366642,15.0,5.0,16.0,30.0,87.0,75.0,15.0,1,0.978,False,-1.0635,-0.3551,Cluster 1: Relatively Low / Baseline Ambient,-0.188,379
+"MIT-Daudpur Kothi, Muzaffarpur - BSPCB",Muzaffarpur,Bihar,26.1403345,85.3650192,28.0,1.0,8.0,64.0,53.0,45.0,17.0,1,2.662,False,-2.2203,-0.5214,Cluster 1: Relatively Low / Baseline Ambient,-0.192,380
+"OP Jindal School, Kunjemura - CECB",Kunjemura,Chhattisgarh,22.12665,83.483212,34.0,2.0,20.0,3.0,76.0,54.0,22.0,1,1.693,False,-1.209,1.2072,Cluster 1: Relatively Low / Baseline Ambient,-0.197,381
+"Vedhaynath Colony, Sirohi - RSPCB",Sirohi,Rajasthan,24.885261,72.857549,12.0,4.0,16.0,55.0,85.0,39.0,8.0,1,2.015,False,-1.7072,-1.4204,Cluster 1: Relatively Low / Baseline Ambient,-0.205,382
+"Civil Lines,  Ajmer - RSPCB",Ajmer,Rajasthan,26.470859,74.646594,23.0,3.0,19.0,21.0,103.0,67.0,10.0,1,0.847,False,-0.9601,-0.1272,Cluster 1: Relatively Low / Baseline Ambient,-0.215,383
+"Rajendra Nagar North, Guntur - APPCB",Guntur,Andhra Pradesh,16.316553,80.413302,15.0,8.0,37.0,15.0,59.0,48.0,13.0,1,1.474,False,-0.9652,-0.7756,Cluster 1: Relatively Low / Baseline Ambient,-0.221,384
+"Dnyaneshwar Nagar, Solapur - MPCB",Solapur,Maharashtra,17.6336264,75.9132495,17.0,4.0,15.0,43.0,80.0,72.0,4.0,1,1.425,False,-1.3893,-1.2017,Cluster 1: Relatively Low / Baseline Ambient,-0.228,385
+"Vijay Nagar, Sangli - MPCB",Sangli,Maharashtra,16.5038,74.3623,16.0,7.0,22.0,20.0,73.0,81.0,4.0,1,1.176,False,-0.9323,-1.0273,Cluster 1: Relatively Low / Baseline Ambient,-0.229,386
+"Forest Rest House, Manguraha - BSPCB",Manguraha,Bihar,27.308328,84.531742,32.0,4.59,19.84,38.0,74.0,56.0,17.0,1,1.104,False,-1.1602,-0.2792,Cluster 1: Relatively Low / Baseline Ambient,-0.229,386
+"GM Office, Brajrajnagar - OSPCB",Brajrajnagar,Odisha,21.8004996,83.8396977,31.0,6.0,17.0,42.0,69.0,50.0,17.0,1,1.369,False,-1.2515,-0.5317,Cluster 1: Relatively Low / Baseline Ambient,-0.239,388
+"Dumra, Sitamardhi - BSPCB",Sitamarhi,Bihar,26.568547,85.517364,25.57,10.0,21.0,3.0,50.0,44.0,20.0,1,2.124,False,-1.0712,0.0448,Cluster 1: Relatively Low / Baseline Ambient,-0.241,389
+"Shrinath Puram, Kota - RSPCB",Kota,Rajasthan,25.14389,75.821256,36.0,4.0,14.0,35.0,79.48,72.95,7.0,1,1.1,False,-1.1155,-0.5519,Cluster 1: Relatively Low / Baseline Ambient,-0.249,390
+"IITG, Guwahati - PCBA",Guwahati,Assam,26.2028636,91.70046436,82.0,1.0,2.0,4.0,20.0,26.0,34.0,3,3.579,True,-1.9635,2.7143,Cluster 3: Vehicular & Industrial Gas Dominated,-0.252,391
+"Ramdaspeth, Akola - MPCB",Akola,Maharashtra,20.719516,77.000253,21.0,8.0,22.0,23.0,82.0,56.0,11.0,1,1.045,False,-0.8761,-0.7763,Cluster 1: Relatively Low / Baseline Ambient,-0.255,392
+"H.B. Colony, Bhiwani - HSPCB",Bhiwani,Haryana,28.806223,76.141105,45.0,10.0,15.0,14.0,81.0,19.0,12.0,1,2.045,False,-0.9091,-0.3768,Cluster 1: Relatively Low / Baseline Ambient,-0.271,393
+"ICRISAT Patancheru, Hyderabad - TSPCB",Hyderabad,Telangana,17.5184,78.278777,13.0,1.0,22.0,18.0,88.0,68.0,8.0,1,1.154,False,-1.382,-0.1463,Cluster 1: Relatively Low / Baseline Ambient,-0.28,394
+"IGSC Planetarium Complex, Patna - BSPCB",Patna,Bihar,25.610369,85.132568,9.0,2.26,3.0,33.0,105.4,53.0,12.0,1,1.58,False,-1.6793,-0.2549,Cluster 1: Relatively Low / Baseline Ambient,-0.282,395
+"Sawe Wadi, Latur - MPCB",Latur,Maharashtra,18.39963,76.57452,15.0,4.0,13.0,38.0,79.0,75.0,4.0,1,1.279,False,-1.4269,-1.071,Cluster 1: Relatively Low / Baseline Ambient,-0.284,396
+"HB Colony, Vijayawada - APPCB",Vijayawada,Andhra Pradesh,16.536107,80.594233,47.0,6.0,32.0,18.0,46.0,44.0,13.0,1,1.521,False,-1.042,-0.1728,Cluster 1: Relatively Low / Baseline Ambient,-0.29,397
+"Sector-12, Karnal - HSPCB",Karnal,Haryana,29.6953,77.0027,25.0,8.0,14.0,12.0,56.0,79.0,12.0,1,1.377,False,-1.0532,-0.2715,Cluster 1: Relatively Low / Baseline Ambient,-0.292,398
+"Forest Office, Barbil - OSPCB",Barbil,Odisha,22.1166054,85.3945546,18.0,2.0,16.0,5.0,71.0,54.0,23.0,1,1.637,False,-1.5631,1.041,Cluster 1: Relatively Low / Baseline Ambient,-0.301,399
+"Rajiv Gandhi Park, Vijayawada - APPCB",Vijayawada,Andhra Pradesh,16.509717,80.612222,24.0,7.0,26.0,15.0,63.0,54.0,17.0,1,1.082,False,-1.0255,-0.1565,Cluster 1: Relatively Low / Baseline Ambient,-0.304,400
+"Bolinj, Virar - MPCB",Virar,Maharashtra,19.445821,72.7988231,39.0,5.0,26.0,20.0,78.0,55.0,6.0,1,0.942,False,-0.904,-0.4865,Cluster 1: Relatively Low / Baseline Ambient,-0.309,401
+"Lohiyanagar, Begusarai - BSPCB",Begusarai,Bihar,25.42742023,86.13886079,41.99,2.0,9.0,28.0,77.0,57.0,16.0,1,1.311,False,-1.417,0.471,Cluster 1: Relatively Low / Baseline Ambient,-0.314,402
+"New Malakpet, Hyderabad - TSPCB",Hyderabad,Telangana,17.37206,78.50864,20.0,3.0,15.0,15.0,74.0,86.0,9.0,1,0.931,False,-1.2505,-0.0247,Cluster 1: Relatively Low / Baseline Ambient,-0.324,403
+"Govt. Higher Secondary School, Milupara - CECB",Milupara,Chhattisgarh,22.1910172,83.5197009,16.0,2.0,33.0,20.0,70.0,44.0,17.0,1,1.083,False,-1.4265,0.0446,Cluster 1: Relatively Low / Baseline Ambient,-0.324,403
+"Jagamohanpur, Keonjhar - OSPCB",Keonjhar,Odisha,21.6439,85.599355,3.0,2.0,18.0,7.0,33.0,23.0,39.0,3,2.852,False,-2.3878,1.5718,Cluster 3: Vehicular & Industrial Gas Dominated,-0.325,405
+"Pan Bazaar, Guwahati - PCBA",Guwahati,Assam,26.1875,91.744194,19.0,1.0,2.0,13.0,2.0,2.0,64.0,3,3.798,True,-3.0296,3.3098,Cluster 3: Vehicular & Industrial Gas Dominated,-0.325,405
+"CDA Area, Cuttack - OSPCB",Cuttack,Odisha,20.48891,85.84768,31.0,3.0,16.0,31.0,82.0,69.0,7.0,1,0.839,False,-1.2192,-0.4402,Cluster 1: Relatively Low / Baseline Ambient,-0.328,407
+"DM Office_Kasipur, Samastipur - BSPCB",Samastipur,Bihar,25.859655,85.77944,6.0,1.0,8.0,6.0,78.19,74.1,12.0,1,1.752,False,-1.772,0.4724,Cluster 1: Relatively Low / Baseline Ambient,-0.333,408
+"Rati Talai, Banswara - RSPCB",Banswara,Rajasthan,23.55519,74.44001,8.0,3.0,33.0,47.0,51.0,36.0,7.0,1,1.843,False,-1.9245,-1.4916,Cluster 1: Relatively Low / Baseline Ambient,-0.338,409
+"Civil Lines, Bareilly - UPPCB",Bareilly,Uttar Pradesh,28.359581,79.414455,62.0,0.0,9.0,2.0,55.0,36.44,15.73,1,2.638,False,-1.7497,1.5226,Cluster 1: Relatively Low / Baseline Ambient,-0.342,410
+"Park Street Wakad, Pimpri Chinchwad - MPCB",Pimpri-Chinchwad,Maharashtra,18.59051,73.77946,20.74,4.0,50.0,1.0,54.0,14.0,2.0,1,2.21,False,-1.4133,-0.8028,Cluster 1: Relatively Low / Baseline Ambient,-0.342,410
+"Manali, Chennai - CPCB",Chennai,Tamil Nadu,13.164544,80.26285,49.0,6.0,9.0,8.0,68.75,58.88,4.0,1,1.795,False,-1.1201,-0.0638,Cluster 1: Relatively Low / Baseline Ambient,-0.345,412
+"Mangala, Bilaspur - NTPC",Bilaspur,Chhattisgarh,22.08815,82.13737,32.0,3.75,11.0,29.67,75.0,64.0,16.0,1,0.89,False,-1.3133,0.0941,Cluster 1: Relatively Low / Baseline Ambient,-0.349,413
+"Evelyn Lodge, Asansol - WBPCB",Asansol,West Bengal,23.697936,86.944395,27.0,7.0,20.0,9.0,72.0,61.0,7.0,1,1.169,False,-0.9971,-0.4445,Cluster 1: Relatively Low / Baseline Ambient,-0.349,413
+"Bhoop Narayan Singh Colony, Madhubani - BSPCB",Madhubani,Bihar,26.336563,86.073658,31.0,8.0,29.0,1.0,59.0,35.0,8.0,1,1.772,False,-1.0688,-0.4255,Cluster 1: Relatively Low / Baseline Ambient,-0.355,415
+"32Bungalows, Bhilai - CECB",Bhilai,Chhattisgarh,21.194815,81.31477,26.0,6.0,43.0,3.0,42.0,34.0,4.0,1,1.9,False,-1.2637,-0.766,Cluster 1: Relatively Low / Baseline Ambient,-0.362,416
+"Doon University, Dehradun - UKPCB",Dehradun,Uttarakhand,30.269444,78.044167,28.0,3.23,4.0,32.0,94.0,61.0,1.0,1,1.397,False,-1.4807,-0.7328,Cluster 1: Relatively Low / Baseline Ambient,-0.363,417
+"Rampur, Korba - CECB",Korba,Chhattisgarh,22.368195,82.746431,36.0,1.0,22.0,1.0,63.0,60.0,6.0,1,1.681,False,-1.4547,0.4243,Cluster 1: Relatively Low / Baseline Ambient,-0.368,418
+"Shivaji Nagar, Rishikesh - UKPCB",Rishikesh,Uttarakhand,30.075911,78.2859547,15.0,7.0,7.0,13.0,76.0,74.0,3.0,1,1.469,False,-1.2934,-0.7457,Cluster 1: Relatively Low / Baseline Ambient,-0.37,419
+"District Court, Eluru - APPCB",Eluru,Andhra Pradesh,16.711754,81.092095,38.0,5.0,19.0,21.0,56.0,56.0,18.0,1,1.034,False,-1.2406,0.233,Cluster 1: Relatively Low / Baseline Ambient,-0.372,420
+"Nacharam_TSIIC IALA, Hyderabad - TSPCB",Hyderabad,Telangana,17.429398,78.569354,37.0,5.0,13.0,22.0,84.0,54.0,12.0,1,0.846,False,-1.1011,-0.0447,Cluster 1: Relatively Low / Baseline Ambient,-0.373,421
+"Somajiguda, Hyderabad - TSPCB",Hyderabad,Telangana,17.417094,78.457437,21.0,4.0,18.0,24.0,85.0,55.0,16.0,1,0.611,False,-1.2335,-0.0285,Cluster 1: Relatively Low / Baseline Ambient,-0.374,422
+"Chikkaballapur Rural, Chikkaballapur - KSPCB",Chikkaballapur,Karnataka,13.428828,77.731418,1.0,1.0,3.0,19.0,85.81,66.36,9.0,1,1.735,False,-1.9876,-0.0461,Cluster 1: Relatively Low / Baseline Ambient,-0.387,423
+"Muzaffarpur Collectorate, Muzaffarpur - BSPCB",Muzaffarpur,Bihar,26.1209,85.3647,27.0,3.0,5.0,25.87,96.07,60.0,6.0,1,1.089,False,-1.4176,-0.284,Cluster 1: Relatively Low / Baseline Ambient,-0.39,424
+"Anand Nagar, Raebareli - UPPCB",Raebareli,Uttar Pradesh,26.219512,81.237648,30.0,5.52,32.0,21.0,71.0,31.0,12.0,1,0.841,False,-1.1352,-0.4772,Cluster 1: Relatively Low / Baseline Ambient,-0.41,425
+"Shivneri Colony, Amravati - MPCB",Amravati,Maharashtra,20.9402359,77.7895248,12.0,2.0,18.0,33.0,82.0,45.0,12.0,1,1.055,False,-1.7168,-0.4267,Cluster 1: Relatively Low / Baseline Ambient,-0.416,426
+"Railway Colony, Barmer - RSPCB",Barmer,Rajasthan,25.747299,71.393989,7.0,5.0,15.0,31.0,97.0,29.0,6.0,1,1.346,False,-1.612,-1.0918,Cluster 1: Relatively Low / Baseline Ambient,-0.426,427
+"Hombegowda Nagar, Bengaluru - KSPCB",Bengaluru,Karnataka,12.938539,77.5901,7.0,0.0,7.0,42.0,87.65,28.0,11.0,1,1.958,False,-2.3239,-0.4611,Cluster 1: Relatively Low / Baseline Ambient,-0.427,428
+"Bandhavgar Colony, Satna - Birla Cement",Satna,Madhya Pradesh,24.58434363,80.8549414,25.0,3.87,13.0,13.0,71.0,50.0,20.0,1,1.069,False,-1.4673,0.5837,Cluster 1: Relatively Low / Baseline Ambient,-0.427,428
+"Khunmoh, Srinagar - JKPCC",Srinagar,Jammu and Kashmir,34.06313,74.96017,37.74,4.19,37.0,20.13,73.0,7.0,3.0,1,1.508,False,-1.3327,-0.8484,Cluster 1: Relatively Low / Baseline Ambient,-0.432,430
+"AIIMS, Raipur - CECB",Raipur,Chhattisgarh,21.258815,81.578979,43.0,2.0,9.0,10.0,74.0,57.0,5.0,1,1.521,False,-1.4849,0.2951,Cluster 1: Relatively Low / Baseline Ambient,-0.433,431
+"Hathkhoj, Bhilai - CECB",Bhilai,Chhattisgarh,21.224231,81.40835,27.0,3.0,34.0,12.0,45.0,46.0,14.0,1,1.163,False,-1.4783,0.0684,Cluster 1: Relatively Low / Baseline Ambient,-0.435,432
+"Kalabhavan, Dharwad - KSPCB",Dharwad,Karnataka,15.459706,75.008381,41.0,6.0,22.0,26.0,60.0,43.0,9.0,1,1.04,False,-1.2234,-0.5487,Cluster 1: Relatively Low / Baseline Ambient,-0.436,433
+"Sector-6, Panchkula - HSPCB ",Panchkula,Haryana,30.7057778,76.8531805555555,19.0,2.56,29.0,34.0,68.37,35.0,11.0,1,0.942,False,-1.6276,-0.6563,Cluster 1: Relatively Low / Baseline Ambient,-0.447,434
+"Yerramukkapalli, Kadapa - APPCB",Kadapa,Andhra Pradesh,14.465052,78.824187,33.0,2.0,18.0,7.0,57.0,63.0,11.0,1,1.228,False,-1.5158,0.4638,Cluster 1: Relatively Low / Baseline Ambient,-0.448,435
+"Bata Chowk, Nalbari - PCBA",Nalbari,Assam,26.446912,91.439057,21.0,6.0,14.0,19.0,56.0,77.0,8.0,1,0.897,False,-1.3461,-0.5285,Cluster 1: Relatively Low / Baseline Ambient,-0.449,436
+"SFTI Kusdihra, Gaya - BSPCB",Gaya,Bihar,24.762518,84.982348,30.0,6.0,25.0,10.0,58.0,48.0,10.0,1,1.017,False,-1.2236,-0.2596,Cluster 1: Relatively Low / Baseline Ambient,-0.46,437
+"Sector-25, Chandigarh - CPCC",Chandigarh,Chandigarh,30.751462,76.762879,15.0,6.0,23.0,13.0,67.0,54.0,5.0,1,1.028,False,-1.3345,-0.7791,Cluster 1: Relatively Low / Baseline Ambient,-0.465,438
+"Ratanpura, Rupnagar - Ambuja Cements",Rupnagar,Punjab,31.0325454,76.5623046,47.0,3.8,26.0,27.83,40.0,36.0,10.0,1,1.423,False,-1.567,-0.3162,Cluster 1: Relatively Low / Baseline Ambient,-0.472,439
+"Central University, Hyderabad - TSPCB",Hyderabad,Telangana,17.460103,78.334361,38.0,1.0,11.0,29.0,53.0,55.0,14.0,1,1.289,False,-1.8541,0.3158,Cluster 1: Relatively Low / Baseline Ambient,-0.482,440
+"Diwator Nagar, Koppal - KSPCB",Koppal,Karnataka,15.34763,76.181767,31.0,2.0,18.0,37.0,47.0,41.23,17.0,1,1.293,False,-1.9231,-0.0414,Cluster 1: Relatively Low / Baseline Ambient,-0.483,441
+"Siltara Phase-II, Raipur - CECB",Raipur,Chhattisgarh,21.371751,81.664929,16.0,3.0,13.27,0.0,81.0,48.0,1.0,1,1.709,False,-1.6676,-0.2182,Cluster 1: Relatively Low / Baseline Ambient,-0.485,442
+"Kandivali West, Mumbai - BMC",Mumbai,Maharashtra,19.215859,72.831718,32.0,4.0,6.0,13.0,72.0,67.0,4.0,1,1.18,False,-1.4624,-0.1458,Cluster 1: Relatively Low / Baseline Ambient,-0.486,443
+"Gurdeo Nagar, Aurangabad - BSPCB",Aurangabad,Bihar,24.75746,84.366208,4.0,2.0,7.0,14.0,82.0,48.0,13.0,1,1.478,False,-1.9684,0.1521,Cluster 1: Relatively Low / Baseline Ambient,-0.487,444
+"Charitra Van, Buxar - BSPCB",Buxar,Bihar,25.56752,83.966379,26.0,3.0,9.0,18.0,22.0,28.0,33.0,1,2.355,False,-2.368,1.2495,Cluster 1: Relatively Low / Baseline Ambient,-0.492,445
+"Govindh Bhavan Colony, Jabalpur - JMC",Jabalpur,Madhya Pradesh,23.163174,79.973061,22.0,4.62,16.0,9.0,68.0,61.0,3.0,1,1.099,False,-1.4331,-0.4476,Cluster 1: Relatively Low / Baseline Ambient,-0.5,446
+"Devaraj Urs Badavane, Davanagere - KSPCB",Davanagere,Karnataka,14.4758,75.9052,22.0,1.0,11.0,19.0,79.0,58.0,5.0,1,1.083,False,-1.7481,-0.1257,Cluster 1: Relatively Low / Baseline Ambient,-0.507,447
+"Police Line, Saharsa - BSPCB",Saharsa,Bihar,25.892357,86.590325,40.0,4.0,7.0,18.0,46.0,56.0,17.0,1,1.328,False,-1.686,0.519,Cluster 1: Relatively Low / Baseline Ambient,-0.51,448
+"Mini Secretariat, Charkhi Dadri - HSPCB",Charkhi Dadri,Haryana,28.593883,76.270653,13.0,6.0,15.0,16.0,79.0,45.0,7.0,1,0.983,False,-1.4654,-0.6681,Cluster 1: Relatively Low / Baseline Ambient,-0.514,449
+"Tarapur, Silchar - PCBA",Silchar,Assam,24.82827,92.79525,37.0,1.0,19.0,1.0,53.0,45.0,7.0,1,1.718,False,-1.7796,0.4845,Cluster 1: Relatively Low / Baseline Ambient,-0.52,450
+"Gulzarpet, Anantapur - APPCB",Anantapur,Andhra Pradesh,14.675886,77.593027,26.0,5.0,21.0,13.0,59.0,49.0,14.0,1,0.754,False,-1.3983,0.0048,Cluster 1: Relatively Low / Baseline Ambient,-0.52,450
+"Krishak Nagar, Raipur - CECB",Raipur,Chhattisgarh,21.237755,81.705301,45.0,2.0,17.0,4.0,77.0,3.0,12.0,1,1.89,False,-1.7288,0.6681,Cluster 1: Relatively Low / Baseline Ambient,-0.528,452
+"Ghatkopar, Mumbai - BMC",Mumbai,Maharashtra,19.083694,72.920967,21.0,10.0,20.0,6.0,35.0,30.58,8.07,1,2.03,False,-1.5872,-0.8327,Cluster 1: Relatively Low / Baseline Ambient,-0.535,453
+"Nawapara SECL Colony, Chhal - CECB",Chhal,Chhattisgarh,22.118125,83.140608,25.0,3.0,19.0,22.0,61.0,56.0,14.0,1,0.474,False,-1.5499,0.0197,Cluster 1: Relatively Low / Baseline Ambient,-0.546,454
+"Velachery Res. Area, Chennai - CPCB",Chennai,Tamil Nadu,13.0052189,80.2398125,15.0,9.0,11.0,6.0,65.0,26.0,7.0,1,1.83,False,-1.6193,-0.722,Cluster 1: Relatively Low / Baseline Ambient,-0.557,455
+"Rajiv Nagar, Vijayawada - APPCB",Vijayawada,Andhra Pradesh,16.554731,80.64911,29.0,4.0,22.0,18.0,54.0,50.0,13.0,1,0.577,False,-1.4969,-0.0514,Cluster 1: Relatively Low / Baseline Ambient,-0.567,456
+"Dabuna, Nayagarh - OSPCB",Nayagarh,Odisha,21.847279,85.416905,12.0,1.0,7.0,12.0,65.0,41.0,18.0,1,1.525,False,-2.1901,0.6692,Cluster 1: Relatively Low / Baseline Ambient,-0.568,457
+"Kokapet, Hyderabad - TSPCB",Hyderabad,Telangana,17.393559,78.339194,19.0,3.0,13.0,14.0,75.0,53.0,7.0,1,0.821,False,-1.6472,-0.178,Cluster 1: Relatively Low / Baseline Ambient,-0.571,458
+"Silk Board, Bengaluru - KSPCB",Bengaluru,Karnataka,12.917348,77.622813,21.0,3.0,34.0,16.0,39.0,18.0,16.0,1,1.353,False,-1.9141,-0.0699,Cluster 1: Relatively Low / Baseline Ambient,-0.577,459
+"Girls College, Sivasagar - PCBA",Sivasagar,Assam,26.987634,94.636574,43.0,3.0,16.0,17.0,48.0,44.0,9.0,1,1.202,False,-1.6983,0.0877,Cluster 1: Relatively Low / Baseline Ambient,-0.582,460
+"Vibhab Nagar, Firozabad - UPPCB",Firozabad,Uttar Pradesh,27.1594,78.3953,43.0,7.0,15.0,1.0,38.0,27.0,9.0,1,1.989,False,-1.6413,0.0261,Cluster 1: Relatively Low / Baseline Ambient,-0.584,461
+"LGBI Airport, Guwahati - PCBA",Guwahati,Assam,26.10887,91.589544,25.0,4.0,14.0,14.0,49.0,62.0,12.0,1,0.819,False,-1.6595,0.0569,Cluster 1: Relatively Low / Baseline Ambient,-0.585,462
+"Regional Park, Indore - IMC",Indore,Madhya Pradesh,22.678,75.8559,22.0,1.0,21.16,5.0,42.0,46.0,12.0,1,1.476,False,-2.0256,0.4316,Cluster 1: Relatively Low / Baseline Ambient,-0.588,463
+"Fertilizer Township, Rourkela - OSPCB",Rourkela,Odisha,22.18972222,84.86277778,26.0,3.33,18.74,27.09,55.0,55.0,11.0,1,0.476,False,-1.6397,-0.3158,Cluster 1: Relatively Low / Baseline Ambient,-0.591,464
+"Kodungaiyur, Chennai - TNPCB",Chennai,Tamil Nadu,13.1278,80.2642,54.0,2.0,13.0,30.0,31.0,30.0,6.0,1,1.986,False,-2.1246,-0.1843,Cluster 1: Relatively Low / Baseline Ambient,-0.602,465
+"New DM Office, Arrah - BSPCB",Arrah,Bihar,25.5626095,84.663264,53.0,2.0,7.0,10.0,43.0,37.0,5.0,1,2.024,False,-1.9978,0.3624,Cluster 1: Relatively Low / Baseline Ambient,-0.614,466
+"Vijay Nagar, Ramanagara - KSPCB",Ramanagara,Karnataka,12.733409,77.298051,31.0,3.46,25.79,26.0,28.0,16.0,19.0,1,1.459,False,-2.0858,0.0172,Cluster 1: Relatively Low / Baseline Ambient,-0.623,467
+"Dangi Tola, Rajgir - BSPCB",Rajgir,Bihar,25.0328,85.41948,41.0,3.0,14.0,5.0,37.0,47.0,3.0,1,1.73,False,-1.8937,0.0303,Cluster 1: Relatively Low / Baseline Ambient,-0.631,468
+"Arumbakkam, Chennai - TNPCB",Chennai,Tamil Nadu,13.0664,80.2112,22.11,2.0,26.0,32.72,53.0,25.0,2.0,1,1.271,False,-2.0685,-1.0575,Cluster 1: Relatively Low / Baseline Ambient,-0.633,469
+"Urban, Chamarajanagar - KSPCB",Chamarajanagar,Karnataka,11.55358,76.55521,22.0,2.0,29.0,25.0,45.0,30.0,4.0,1,1.132,False,-2.0179,-0.7831,Cluster 1: Relatively Low / Baseline Ambient,-0.654,470
+"Mahishkapur Road_B-Zone, Durgapur - WBPCB",Durgapur,West Bengal,23.567923,87.306843,15.0,2.0,5.0,15.0,58.0,50.0,13.0,1,1.193,False,-2.156,0.2678,Cluster 1: Relatively Low / Baseline Ambient,-0.655,471
+"Meelavittan, Thoothukudi - TNPCB",Thoothukudi,Tamil Nadu,8.816428,78.099039,31.0,3.79,16.0,30.0,64.0,29.75,4.0,1,0.917,False,-1.8067,-0.791,Cluster 1: Relatively Low / Baseline Ambient,-0.657,472
+"Kadri, Mangalore - KSPCB",Mangalore,Karnataka,12.88925,74.853,32.0,2.09,6.0,36.0,47.0,36.0,12.0,1,1.357,False,-2.2549,-0.1675,Cluster 1: Relatively Low / Baseline Ambient,-0.658,473
+"Naharlagun, Naharlagun - APSPCB",Naharlagun,Arunachal Pradesh,27.103358,93.679645,8.0,1.0,8.0,7.0,53.0,45.0,11.0,1,1.653,False,-2.376,0.3112,Cluster 1: Relatively Low / Baseline Ambient,-0.661,474
+"Thavakkara, Kannur - Kerala PCB",Kannur,Kerala,11.875,75.3732,19.0,1.0,12.0,26.0,61.0,44.0,1.0,1,1.271,False,-2.1897,-0.6503,Cluster 1: Relatively Low / Baseline Ambient,-0.662,475
+"Bapuji Nagar, Bengaluru - KSPCB",Bengaluru,Karnataka,12.951913,77.539784,17.0,2.0,30.0,26.0,26.0,11.0,17.0,1,1.6,False,-2.3924,-0.1991,Cluster 1: Relatively Low / Baseline Ambient,-0.665,476
+"IDA Pashamylaram, Hyderabad - TSPCB",Hyderabad,Telangana,17.5316895,78.218939,30.0,2.0,13.0,14.0,55.0,40.0,12.0,1,0.986,False,-1.9351,0.3105,Cluster 1: Relatively Low / Baseline Ambient,-0.667,477
+"IITH Kandi, Hyderabad - TSPCB",Hyderabad,Telangana,17.585705,78.126199,32.0,5.0,11.0,16.0,59.0,35.0,11.0,1,0.878,False,-1.7139,-0.0737,Cluster 1: Relatively Low / Baseline Ambient,-0.673,478
+"Kamalnath Nagar, Bettiah - BSPCB",Bettiah,Bihar,26.80365,84.51954,24.89,3.0,27.0,15.0,21.0,23.0,17.0,1,1.496,False,-2.1814,0.1375,Cluster 1: Relatively Low / Baseline Ambient,-0.673,478
+"D M Colony, Bihar Sharif - BSPCB",Bihar Sharif,Bihar,25.204762,85.51496,11.0,3.0,9.0,2.0,53.0,34.0,13.0,1,1.638,False,-2.2299,0.3448,Cluster 1: Relatively Low / Baseline Ambient,-0.682,480
+"BTM Layout, Bengaluru - CPCB",Bengaluru,Karnataka,12.9135218,77.5950804,18.32,3.0,19.0,19.0,70.81,27.0,8.0,1,0.718,False,-1.8517,-0.3958,Cluster 1: Relatively Low / Baseline Ambient,-0.685,481
+"SDM Office_Khagra, Kishanganj - BSPCB",Kishanganj,Bihar,26.0881305,87.93840336,42.0,3.0,8.0,32.0,47.0,26.0,8.0,1,1.443,False,-2.1307,-0.3097,Cluster 1: Relatively Low / Baseline Ambient,-0.687,482
+"Ramachandrapuram, Hyderabad - TSPCB",Hyderabad,Telangana,17.528544,78.286195,21.0,3.0,11.0,21.0,68.0,41.0,10.0,1,0.624,False,-1.8707,-0.1668,Cluster 1: Relatively Low / Baseline Ambient,-0.687,482
+"Jayanagar 5th Block, Bengaluru - KSPCB",Bengaluru,Karnataka,12.920984,77.584908,10.0,1.0,16.0,15.0,40.0,32.0,16.0,1,1.5,False,-2.4555,0.2783,Cluster 1: Relatively Low / Baseline Ambient,-0.691,484
+"Royapuram, Chennai - TNPCB",Chennai,Tamil Nadu,13.1036,80.2909,31.0,4.0,14.0,30.0,65.0,21.0,2.0,1,1.128,False,-1.9262,-0.924,Cluster 1: Relatively Low / Baseline Ambient,-0.693,485
+"Kompally Municipal Office, Hyderabad - TSPCB",Hyderabad,Telangana,17.544899,78.486949,26.0,4.0,13.0,14.0,59.0,38.0,11.0,1,0.755,False,-1.7964,-0.0147,Cluster 1: Relatively Low / Baseline Ambient,-0.695,486
+"Vinoba Nagara, Shivamogga - KSPCB",Shivamogga,Karnataka,13.94,75.555917,11.0,3.0,28.0,22.0,37.0,29.0,5.0,1,1.283,False,-2.193,-0.9056,Cluster 1: Relatively Low / Baseline Ambient,-0.699,487
+"Town Hall - Lal Bagh, Darbhanga - BSPCB",Darbhanga,Bihar,26.112777,85.902825,52.0,0.0,12.0,15.0,45.0,8.0,5.8,1,2.155,False,-2.3507,0.358,Cluster 1: Relatively Low / Baseline Ambient,-0.702,488
+"Christianpatty, Nagaon - PCBA",Nagaon,Assam,26.349082,92.68449,20.0,1.0,1.0,10.0,44.0,51.0,11.0,1,1.58,False,-2.4328,0.4834,Cluster 1: Relatively Low / Baseline Ambient,-0.72,489
+"Hebbal, Bengaluru - KSPCB",Bengaluru,Karnataka,13.029152,77.585901,16.0,2.0,27.0,1.0,32.0,22.0,3.0,1,1.924,False,-2.33,-0.3236,Cluster 1: Relatively Low / Baseline Ambient,-0.727,490
+"Rajbagh, Srinagar - JKPCC",Srinagar,Jammu and Kashmir,34.066206,74.81982,15.0,9.0,19.0,0.0,19.0,12.0,3.0,1,2.435,False,-2.1909,-1.0043,Cluster 1: Relatively Low / Baseline Ambient,-0.748,491
+"Skara Yokma, Leh - LPCC",Leh,Ladakh,34.147096,77.55709,1.0,1.16,10.9,25.75,40.0,23.0,14.0,1,1.75,False,-2.8069,-0.2085,Cluster 1: Relatively Low / Baseline Ambient,-0.749,492
+"Vidayagiri, Bagalkot - KSPCB",Bagalkot,Karnataka,16.172806,75.659694,19.0,1.0,10.0,18.0,51.0,36.0,10.0,1,1.152,False,-2.346,0.0723,Cluster 1: Relatively Low / Baseline Ambient,-0.754,493
+"Kariavattom, Thiruvananthapuram - Kerala PCB",Thiruvananthapuram,Kerala,8.5637,76.8865,22.0,0.0,6.0,30.0,42.0,39.0,5.0,1,1.559,False,-2.6352,-0.3362,Cluster 1: Relatively Low / Baseline Ambient,-0.757,494
+"Mahatma Basaveswar Colony, Kalaburgi - KSPCB",Kalaburagi,Karnataka,17.336318,76.847397,37.0,2.0,13.0,13.0,36.0,27.0,5.0,1,1.493,False,-2.2747,-0.0377,Cluster 1: Relatively Low / Baseline Ambient,-0.791,495
+"Lingaraj Nagar, Hubballi - KSPCB",Hubballi,Karnataka,15.3714823,75.1160168,24.0,2.0,10.0,19.0,49.0,36.0,1.0,1,1.261,False,-2.2996,-0.523,Cluster 1: Relatively Low / Baseline Ambient,-0.792,496
+"Shivaji University, Kolhapur - MPCB",Kolhapur,Maharashtra,16.6870449,74.2505872,20.0,3.0,15.21,8.0,40.0,31.0,4.62,1,1.363,False,-2.2604,-0.2813,Cluster 1: Relatively Low / Baseline Ambient,-0.799,497
+"Perungudi, Chennai - TNPCB",Chennai,Tamil Nadu,12.9533,80.2357,32.0,4.0,10.0,18.0,55.78,17.0,2.0,1,1.264,False,-2.1258,-0.5778,Cluster 1: Relatively Low / Baseline Ambient,-0.811,498
+"Hebbal 1st Stage, Mysuru - KSPCB",Mysuru,Karnataka,12.21041,76.37376,8.0,5.0,23.0,9.0,29.0,9.0,3.0,1,1.842,False,-2.4603,-0.9411,Cluster 1: Relatively Low / Baseline Ambient,-0.832,499
+"KHB Colony, Karwar - KSPCB",Karwar,Karnataka,14.816666,74.141003,16.14,1.0,10.0,15.26,37.0,30.0,8.1,1,1.431,False,-2.6308,-0.0426,Cluster 1: Relatively Low / Baseline Ambient,-0.842,500
+"Ibrahimpur, Vijayapura - KSPCB",Vijayapura,Karnataka,16.802639,75.722694,25.0,4.0,11.0,16.0,43.0,27.0,3.0,1,1.19,False,-2.2404,-0.572,Cluster 1: Relatively Low / Baseline Ambient,-0.845,501
+"Ashwini Nagar, Haveri - KSPCB",Haveri,Karnataka,14.7918,75.3896,17.0,4.0,6.0,11.0,40.0,30.0,2.0,1,1.522,False,-2.4543,-0.5466,Cluster 1: Relatively Low / Baseline Ambient,-0.87,502
+"Zero Point GICI, Gangtok - SSPCB",Gangtok,Sikkim,27.33853,88.614099,1.0,1.0,8.0,2.0,20.0,24.0,1.0,1,2.476,False,-3.1707,-0.339,Cluster 1: Relatively Low / Baseline Ambient,-0.919,503
+"Plammoodu, Thiruvananthapuram - Kerala PCB",Thiruvananthapuram,Kerala,8.5149093,76.9435879,10.0,1.0,4.0,23.0,16.0,10.0,16.0,1,2.035,False,-3.2676,0.1372,Cluster 1: Relatively Low / Baseline Ambient,-0.937,504
+"Jawahar Nagar, Puducherry - PPCC",Puducherry,Puducherry,11.9309,79.8027,22.0,2.0,10.0,32.0,11.0,12.0,8.0,1,1.796,False,-3.0314,-0.5838,Cluster 1: Relatively Low / Baseline Ambient,-0.943,505
+"Sikulpuikawn, Aizawl - Mizoram PCB",Aizawl,Mizoram,23.7176342,92.7192841,3.0,0.0,1.0,1.0,28.0,4.0,9.0,1,2.564,False,-3.4159,0.3431,Cluster 1: Relatively Low / Baseline Ambient,-0.982,506
+"Stuart Hill, Madikeri - KSPCB",Madikeri,Karnataka,12.415911,75.73505,12.0,1.0,3.0,2.0,8.0,7.0,6.0,1,2.469,False,-3.4223,0.1077,Cluster 1: Relatively Low / Baseline Ambient,-1.063,507
