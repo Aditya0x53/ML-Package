@@ -90,4 +90,6 @@ def fetch_hourly_snapshot():
     return output_path
 
 if __name__ == "__main__":
-    fetch_hourly_snapshot()
+    result = fetch_hourly_snapshot()
+    if result is None:
+        sys.exit(1)
