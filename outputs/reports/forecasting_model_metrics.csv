@@ -1,0 +1,5 @@
+Model,RMSE (ug/m3),MAE (ug/m3),R2_Score,MAPE (%)
+Ridge Regressor (L2 Linear),2.63,1.57,0.997,2.0
+Random Forest Regressor,3.1,2.03,0.9958,2.45
+HistGradientBoosting Regressor,3.18,2.04,0.9955,2.74
+Persistence Baseline (y_t+1 = y_t),3.9,2.26,0.9933,2.28

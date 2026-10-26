@@ -1,0 +1,15 @@
+Feature,Importance
+PM2.5,0.996
+pm25_diff,0.0012
+pm25_lag1,0.0005
+pm25_pm10_ratio,0.0004
+PM10,0.0003
+NO2,0.0003
+CO,0.0003
+OZONE,0.0003
+SO2,0.0002
+NH3,0.0002
+hour,0.0001
+sin_hour,0.0001
+cos_hour,0.0001
+cluster,0.0

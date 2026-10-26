@@ -1,11 +1,11 @@
 priority_rank,station,city,state,PM2.5,PM10,NO2,cluster_profile,is_outlier
-1,"Gyaspur, Ahmedabad - IITM",Ahmedabad,Gujarat,153.18,276.0,57.0,Cluster 3: Vehicular & Industrial Gas Dominated,True
-2,"Rakhial, Ahmedabad - IITM",Ahmedabad,Gujarat,121.0,199.0,72.0,Cluster 0: Multi-Pollutant Severe Hotspot,True
-3,"Alipur, Delhi - DPCC",Delhi,Delhi,244.0,237.0,69.0,Cluster 0: Multi-Pollutant Severe Hotspot,False
-4,"MIET College, Meerut - UPPCB",Meerut,Uttar Pradesh,292.0,219.0,51.0,Cluster 0: Multi-Pollutant Severe Hotspot,True
-5,"Vivek Vihar, Delhi - DPCC",Delhi,Delhi,208.0,229.0,99.0,Cluster 0: Multi-Pollutant Severe Hotspot,True
-6,"Pusa, Delhi - IITM",Delhi,Delhi,185.0,164.0,105.0,Cluster 0: Multi-Pollutant Severe Hotspot,True
-7,"Deen Dayal Nagar, Gwalior - MPPCB",Gwalior,Madhya Pradesh,195.0,223.0,74.0,Cluster 0: Multi-Pollutant Severe Hotspot,False
-8,"Sector-D Industrial Area, Mandideep - MPPCB",Mandideep,Madhya Pradesh,175.0,207.0,83.0,Cluster 0: Multi-Pollutant Severe Hotspot,False
-9,"North Campus, DU, Delhi - IITM",Delhi,Delhi,180.0,183.0,106.0,Cluster 0: Multi-Pollutant Severe Hotspot,True
-10,"Wazirpur, Delhi - DPCC",Delhi,Delhi,138.0,190.0,100.0,Cluster 0: Multi-Pollutant Severe Hotspot,True
+1,"Gyaspur, Ahmedabad - IITM",Ahmedabad,Gujarat,148.48,277.0,58.0,Cluster 1: Vehicular & Industrial Gas Dominated,True
+2,"Rakhial, Ahmedabad - IITM",Ahmedabad,Gujarat,119.0,199.0,73.0,Cluster 3: Multi-Pollutant Severe Hotspot,True
+3,"MIET College, Meerut - UPPCB",Meerut,Uttar Pradesh,290.0,215.0,49.0,Cluster 3: Multi-Pollutant Severe Hotspot,True
+4,"Alipur, Delhi - DPCC",Delhi,Delhi,233.0,229.0,67.0,Cluster 3: Multi-Pollutant Severe Hotspot,False
+5,"Vivek Vihar, Delhi - DPCC",Delhi,Delhi,197.0,218.0,94.0,Cluster 3: Multi-Pollutant Severe Hotspot,False
+6,"Deen Dayal Nagar, Gwalior - MPPCB",Gwalior,Madhya Pradesh,193.0,214.0,74.0,Cluster 3: Multi-Pollutant Severe Hotspot,True
+7,"Sector-D Industrial Area, Mandideep - MPPCB",Mandideep,Madhya Pradesh,174.0,207.0,82.0,Cluster 3: Multi-Pollutant Severe Hotspot,False
+8,"Pusa, Delhi - IITM",Delhi,Delhi,181.0,162.0,102.0,Cluster 3: Multi-Pollutant Severe Hotspot,False
+9,"Ved Vihar-Loni, Ghaziabad - UPPCB",Ghaziabad,Uttar Pradesh,191.0,180.0,60.66,Cluster 3: Multi-Pollutant Severe Hotspot,True
+10,"Wazirpur, Delhi - DPCC",Delhi,Delhi,135.0,186.0,100.0,Cluster 3: Multi-Pollutant Severe Hotspot,True

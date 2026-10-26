@@ -1,5 +1,5 @@
 {
-    "total_stations_processed": 507,
+    "total_stations_processed": 508,
     "pollutants": [
         "PM2.5",
         "PM10",
@@ -10,22 +10,22 @@
         "NH3"
     ],
     "pollutant_averages": {
-        "PM2.5": 95.27,
-        "PM10": 107.12,
-        "NO2": 29.72,
-        "SO2": 14.59,
-        "CO": 34.53,
+        "PM2.5": 93.9,
+        "PM10": 105.76,
+        "NO2": 29.55,
+        "SO2": 14.63,
+        "CO": 34.61,
         "OZONE": 20.39,
         "NH3": 5.33
     },
     "pollutant_medians": {
-        "PM2.5": 88.0,
-        "PM10": 106.0,
-        "NO2": 25.0,
+        "PM2.5": 87.0,
+        "PM10": 105.0,
+        "NO2": 24.5,
         "SO2": 12.0,
         "CO": 32.0,
         "OZONE": 17.0,
-        "NH3": 4.46
+        "NH3": 4.5
     },
     "states_covered": 31,
     "cities_covered": 270,
