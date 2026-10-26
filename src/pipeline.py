@@ -15,7 +15,7 @@ from src.analysis_correlation import run_correlation_analysis
 from src.analysis_pca import run_pca_analysis
 from src.model_clustering import run_clustering_and_outliers
 from src.model_forecasting import run_forecasting_pipeline
-from src.generate_dashboard import generate_full_dashboard
+from src.generate_dashboard import generate_command_center_dashboard
 from src.generate_map import generate_interactive_hotspot_map
 
 def run_entire_pipeline():
@@ -35,11 +35,13 @@ def run_entire_pipeline():
     print("#" * 70)
 
     # Step 1: Fetch latest hourly data
-    print("\n>>> STEP 1: Fetching Latest CPCB Snapshot...")
-    saved_snapshot = fetch_hourly_snapshot()
-    if not saved_snapshot:
-        print("[!] Ingestion failed. Aborting pipeline run.")
-        return False
+    print("\n>>> STEP 1: Attempting to Fetch Latest Live CPCB Snapshot...")
+    try:
+        saved_snapshot = fetch_hourly_snapshot()
+        if not saved_snapshot:
+            print("[!] Live fetch returned no new records. Continuing with all existing snapshots in data/raw/...")
+    except Exception as e:
+        print(f"[!] Live fetch encountered an issue: {e}. Continuing with all existing snapshots in data/raw/...")
 
     # Step 2: Preprocess and Pivot
     print("\n>>> STEP 2: Running Preprocessing & Standardization...")
@@ -63,7 +65,7 @@ def run_entire_pipeline():
 
     # Step 7: Generate Dashboard & Map
     print("\n>>> STEP 7: Compiling Executive Dashboard & GIS Map...")
-    dashboard_path = generate_full_dashboard()
+    dashboard_path = generate_command_center_dashboard()
     generate_interactive_hotspot_map()
 
     # Step 8: Prepare for Free Cloud Hosting (GitHub Pages)

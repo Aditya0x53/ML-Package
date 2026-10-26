@@ -1,0 +1,8 @@
+Pollutant,Model,R2_Score,RMSE,MAE,Baseline_RMSE,Error_Reduction_%
+PM2.5,Ridge Regressor,0.9889,4.84,2.07,5.39,10.3
+PM10,Ridge Regressor,0.9839,5.52,2.0,5.75,4.0
+NO2,Ridge Regressor,0.988,2.42,0.73,2.42,0.1
+SO2,Ridge Regressor,0.9843,1.4,0.44,1.41,1.1
+CO,Ridge Regressor,0.9736,3.5,1.66,3.64,3.9
+OZONE,Ridge Regressor,0.9541,6.44,2.98,8.16,21.1
+NH3,Ridge Regressor,0.9664,0.67,0.12,0.67,0.7
